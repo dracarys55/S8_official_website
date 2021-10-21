@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# S8官網專案啟動
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+http://s8.git.cloudns.asia:5566/
 
-## Available Scripts
+## 規格說明書
 
-In the project directory, you can run:
+http://s8.git.cloudns.asia:5566/
 
-### `npm start`
+1.與目標網站模板一致
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2.需有會員系統 (可使用 Line 登入，FB登入) 登入之後，有新增會員中心畫面即可
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3.多國語系功能實作
 
-### `npm test`
+4. RWD 實作
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ 
 
-### `npm run build`
+確認規格 :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.右方快捷tab  button 點擊無反應
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2.點擊FB LINE 會員登入無反應，(需能正確登入)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3.有辦法登入後台系統? (無法) 只要會員能正常登入即可 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4.三個 button 全部連到一個頁面即可
