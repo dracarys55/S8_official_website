@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+p {
+  margin: 8px;
+}
+.brand-name {
+  font-size: 3rem;
+}
+a.nav-link.button {
+  padding: 3px !important;
+}
+button.login {
+  color: rgb(120, 56, 180);
+  background-color: white;
+  border: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 1px;
+}
+
+button.register {
+  color: rgb(13, 13, 14);
+  background-color: #f9dba0;
+  border: none;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+button.bookmark {
+  color: rgb(243, 240, 240);
+  background-color: #b51f1f;
+  border: none;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* 顏色還需修改 */
+hr {
+  margin: 0;
+  /* color: #f8b500 !important;
+  border-color: #f8b500 !important; */
+  background: #fbb104;
+  height: 5px !important;
+}
