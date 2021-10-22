@@ -1,0 +1,52 @@
+section.ActicyBlocks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.area-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.textSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3.area-2 {
+  font-size: 2rem;
+  margin-top: -5rem !important;
+  margin-bottom: 2rem;
+}
+div.pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+div.pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+}
+img.qrCode {
+  width: 132px;
+  height: 132px;
+}
+
+img.h5 {
+  width: 132px;
+  height: 132px;
+}
+
+p.area-2 {
+  text-align: center;
+  margin-left: 0 !important;
+}

@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import Slider from 'react-slick';
-import './slider.css';
+import './Slider.css';
 
 import img1 from '../sliderImages/firstRecharge.jpg';
 import img2 from '../sliderImages/getBackMoney.jpg';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-import './header.css';
+import './Header.css';
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
               <NavDropdown.Item href='#action/3.2'>English</NavDropdown.Item>
               <NavDropdown.Item href='#action/3.3'>泰文</NavDropdown.Item>
             </NavDropdown>
-            <p> 2021/10/21 15:24:40</p>
+            <p>2021/10/21 15:24:40</p>
           </Nav>
           <Nav className='ms-auto'>
             <LinkContainer to='/login'>
