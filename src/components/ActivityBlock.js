@@ -1,10 +1,10 @@
 import React from 'react';
-import './ActicyBlock.css';
+import './ActivityBlock.css';
 
 /* 需了解解構 參數 用法 */
-const ActicyBlock = ({ backgroundImage, title, content }) => {
+const ActivityBlock = ({ backgroundImage, title, content }) => {
   return (
-    <>
+    <div className='activity-block'>
       <div
         className='text-light block'
         style={{ backgroundImage: `url(${backgroundImage})` }}
@@ -17,11 +17,11 @@ const ActicyBlock = ({ backgroundImage, title, content }) => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default ActicyBlock;
+export default ActivityBlock;
 
 /* style={{
     backgroundImage: `url(

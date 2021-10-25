@@ -3,10 +3,17 @@ import { LinkContainer } from 'react-router-bootstrap';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import './Header.css';
 
+import logo from './componentsImages/logo.png';
+
 const Header = () => {
   return (
     <>
-      <Navbar bg='secondary' variant='dark' expand='lg'>
+      <Navbar
+        bg='secondary'
+        variant='dark'
+        expand='lg'
+        className='navbar-area-1'
+      >
         <Container>
           <Nav className='me-auto'>
             <NavDropdown title='中文' id='basic-nav-dropdown'>
@@ -35,34 +42,36 @@ const Header = () => {
           </Nav>
         </Container>
       </Navbar>
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar expand='lg' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand className='brand-name'>S8.com</Navbar.Brand>
+            <Navbar.Brand className='brand-name'>
+              <img src={logo} alt='' />
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto '>
               <LinkContainer to='/'>
-                <Nav.Link className='m-3'>首頁</Nav.Link>
+                <Nav.Link className='m-3 navbar-item'>首頁</Nav.Link>
               </LinkContainer>
               <LinkContainer to='/anyGames'>
-                <Nav.Link className='m-3'>
+                <Nav.Link className='m-3 navbar-item'>
                   电子游艺 <i className='fas fa-caret-up'></i>
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to='/boardGames'>
-                <Nav.Link className='m-3'>
+              <LinkContainer to='/carding'>
+                <Nav.Link className='m-3 navbar-item'>
                   棋牌游戏 <i className='fas fa-caret-up'></i>
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to='/fishingGames'>
-                <Nav.Link className='m-3'>
+              <LinkContainer to='/fishing'>
+                <Nav.Link className='m-3 navbar-item'>
                   捕鱼游戏 <i className='fas fa-caret-up'></i>
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to='/fishingGames'>
-                <Nav.Link className='m-3'>优惠活动</Nav.Link>
+              <LinkContainer to='/activities '>
+                <Nav.Link className='m-3 navbar-item'>优惠活动</Nav.Link>
               </LinkContainer>
             </Nav>
           </Navbar.Collapse>

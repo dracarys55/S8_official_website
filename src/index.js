@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HomeScreen from './screens/HomeScreen';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HomeScreen />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

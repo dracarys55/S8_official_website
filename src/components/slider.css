@@ -11,10 +11,10 @@
 .sliderImg {
   display: block;
   box-sizing: border-box;
-  height: 60vh;
   width: 100%;
-  padding: 0px 2vw;
+  padding: 0px 0vw;
   object-fit: cover;
+  height: 100%;
 }
 
 .slides .slick-prev,

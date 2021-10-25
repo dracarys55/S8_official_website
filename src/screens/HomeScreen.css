@@ -1,4 +1,4 @@
-section.ActicyBlocks {
+section.ActivityBlock {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -7,6 +7,7 @@ section.ActicyBlocks {
 
 div.area-2 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -14,12 +15,13 @@ div.area-2 {
 div.textSection {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 h3.area-2 {
   font-size: 2rem;
-  margin-top: -5rem !important;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 div.pics {
@@ -36,6 +38,7 @@ div.pic {
   align-items: center;
   margin: 0 2rem;
 }
+
 img.qrCode {
   width: 132px;
   height: 132px;
@@ -49,4 +52,18 @@ img.h5 {
 p.area-2 {
   text-align: center;
   margin-left: 0 !important;
+}
+
+@media (max-width: 700px) {
+  img.img-area-2 {
+    width: 80%;
+    margin: 0rem 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  p.area-2 {
+    font-size: 20px;
+    padding: 0rem 1rem;
+  }
 }

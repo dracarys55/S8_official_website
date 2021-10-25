@@ -2,12 +2,28 @@
   padding: 0;
   margin: 0;
 }
-
 .navbar {
-  padding: 0;
+  padding: 0 !important;
 }
+.navbar-item {
+  color: #fff !important;
+  font-size: 18px;
+}
+.navbar-item:hover {
+  color: #f9dba0 !important;
+}
+
+.navbar-item:hover > i {
+  transform: rotate(180deg);
+}
+.navbar i {
+  margin-left: 10px;
+  transition: all 0.3s;
+}
+
 p {
   margin: 8px;
+  color: #fff;
 }
 .brand-name {
   font-size: 3rem;
@@ -47,4 +63,16 @@ hr {
   border-color: #f8b500 !important; */
   background: #fbb104;
   height: 5px !important;
+}
+
+.collapsing {
+  width: 0 !important;
+  transition-property: width !important;
+  height: 100% !important;
+}
+
+@media (max-width: 1000px) {
+  .navbar-area-1 {
+    display: none;
+  }
 }
