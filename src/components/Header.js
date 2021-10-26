@@ -24,7 +24,7 @@ const Header = () => {
             <p>2021/10/21 15:24:40</p>
           </Nav>
           <Nav className='ms-auto'>
-            <LinkContainer to='/login'>
+            <LinkContainer to='/member/center'>
               <Nav.Link className='button'>
                 <button className='login'>登录</button>
               </Nav.Link>
@@ -70,7 +70,7 @@ const Header = () => {
                   捕鱼游戏 <i className='fas fa-caret-up'></i>
                 </Nav.Link>
               </LinkContainer>
-              <LinkContainer to='/activities '>
+              <LinkContainer to='/activities'>
                 <Nav.Link className='m-3 navbar-item'>优惠活动</Nav.Link>
               </LinkContainer>
             </Nav>

@@ -1,7 +1,12 @@
 import React from 'react';
+import MemberCenterUserInfo from '../components/MemberCenterUserInfo';
 
 const MemberCenterScreen = () => {
-  return <div></div>;
+  return (
+    <div>
+      <MemberCenterUserInfo />
+    </div>
+  );
 };
 
 export default MemberCenterScreen;

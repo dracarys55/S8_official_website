@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+.S8-CardGamebg {
+  padding-bottom: 80px;
+}
+div {
+  display: block;
+}
+
+div.CardGameBg {
+  background-image: url('../screens/screensImages/cardgame_top.png');
+  background-repeat: no-repeat;
+  padding-top: 386px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.part1,
+.part2 {
+  padding-bottom: 20px;
+}
+
+.part1 {
+  background: #373636;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.p1-tab li {
+  display: inline-block;
+  width: calc(50% - 2px);
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.hotGameTab img {
+  top: -3px;
+  width: 24px;
+  position: relative;
+}
+
+.p1-tab img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.p1-tab li.off,
+.p2-tab li.off {
+  vertical-align: top;
+}
+.p1-tab li.off {
+  background: #2a2a2a;
+}
+
+.p1-tab h2 {
+  font-size: 28px;
+  color: #ebcc8d;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.part1,
+.part2 {
+  padding-bottom: 20px;
+}
+
+.part2 {
+  background: #373636;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+
+.p2-tab li.off {
+  background: #2a2a2a;
+}
+
+.p2-tab li {
+  display: inline-block;
+  width: calc(50% - 2px);
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.p2-tab h2 {
+  font-size: 28px;
+  color: #ebcc8d;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tabContainer {
+  color: #ebcc8d;
+  padding: 50px;
+}
+
+.tabContainer li {
+  text-align: center;
+  display: none;
+}
+
+.tabContainer li.act {
+  display: block;
+}
+
+.dots {
+  text-align: center;
+  display: none;
+}
+
+.dot.act {
+  background-image: linear-gradient(
+    to top right,
+    #b07515,
+    #ffffd7,
+    #b07515,
+    #f5d77f
+  );
+  border: none;
+}
+
+.dot {
+  background: #5a5959;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+  display: inline-block;
+  border: 2px solid #636363;
+  cursor: pointer;
+}

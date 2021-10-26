@@ -61,7 +61,7 @@ export default class Carousel extends Component {
           })}
         </Slider>
         <div className='shadow'>
-          <img src={shadow} className='shadow' />
+          <img src={shadow} className='shadow' alt='/' />
         </div>
       </section>
     );

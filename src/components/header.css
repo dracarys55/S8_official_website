@@ -7,7 +7,8 @@
 }
 .navbar-item {
   color: #fff !important;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .navbar-item:hover {
   color: #f9dba0 !important;
@@ -21,7 +22,7 @@
   transition: all 0.3s;
 }
 
-p {
+.me-auto p {
   margin: 8px;
   color: #fff;
 }

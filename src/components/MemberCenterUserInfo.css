@@ -1,0 +1,420 @@
+.m_info {
+  padding: 10px 0;
+}
+@media (max-width: 980px) {
+  .profile,
+  .vipLevel,
+  .moneyCount {
+    background: none;
+    border: none;
+    text-align: left;
+  }
+}
+@media (max-width: 980px) {
+  .m_info .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 980px) {
+  .m_info .container,
+  .memberMain .container {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (max-width: 980px) {
+  .m_info .container {
+    background: #2f2e2d;
+    border: 1px solid #4a4a4a;
+    margin: 0 40px;
+    width: calc(100% - 80px);
+    padding: 0;
+    text-align: right;
+  }
+}
+@media (max-width: 1280px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 980px) {
+  .profile {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media (max-width: 980px) {
+  .profile,
+  .vipLevel,
+  .moneyCount {
+    background: none;
+    border: none;
+    text-align: left;
+  }
+}
+
+@media (max-width: 1039px) {
+  .profile {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 1115px) {
+  .profile {
+    width: 43%;
+  }
+}
+@media (max-width: 1200px) {
+  .profile {
+    padding: 30px 20px;
+    width: 40%;
+    min-height: 173px;
+    vertical-align: top;
+  }
+}
+
+.profile {
+  background: #2f2e2d;
+  display: inline-block;
+  padding: 12px 30px;
+  padding-right: 15px;
+  border: 1px solid #4a4a4a;
+  width: 43%;
+}
+
+.avatar {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+@media (max-width: 1200px) {
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+}
+.avatar img {
+  width: 100%;
+}
+.profileContent {
+  color: #fff;
+  width: calc(100% - 160px);
+  padding-left: 20px;
+  vertical-align: middle;
+  display: inline-block;
+}
+@media (max-width: 1200px) {
+  .profileContent {
+    width: calc(100% - 105px);
+  }
+}
+
+@media (max-width: 980px) {
+  .profile .welcome {
+    margin-bottom: 10px;
+  }
+}
+
+.welcome * {
+  display: inline-block;
+}
+
+.welcome h3 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-right: 10px;
+
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.welcome h4 {
+  font-size: 20px;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.vipTag {
+  color: #510808;
+  background: #ffb736;
+  padding: 4px 6px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 10px;
+  border-radius: 3px;
+  position: relative;
+  top: -3px;
+}
+
+.progressBar {
+  width: calc(100% - 119px);
+  height: 15px;
+  vertical-align: middle;
+  display: inline-block;
+  /* margin-top: 15px; */
+  border: 1px solid #555;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 1px;
+}
+.vipLevel .progressBar .progressBarContent {
+  background: #ee6d23;
+  width: 30%;
+}
+.vipProgress {
+  margin: 30px 0;
+}
+.vipLevel .vipTag {
+  margin: 0;
+  vertical-align: middle;
+}
+.progressBarContent {
+  width: 90%;
+  height: 11px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: #ffc935;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a.editPW {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+@media (max-width: 980px) {
+  .p_bottom {
+    padding-top: 20px;
+  }
+}
+
+.p_bottom {
+  padding-top: 15px;
+  font-size: 15px;
+}
+.p_bottom b,
+.p_bottom .icons,
+.p_bottom span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.p_bottom b {
+  color: #ffc935;
+  margin: 0 10px;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+@media (max-width: 1200px) {
+  .p_bottom .icons {
+    width: 114px;
+  }
+}
+
+.p_bottom .icons img {
+  width: 32%;
+}
+@media (max-width: 980px) {
+  .vipLevel,
+  .moneyCount {
+    padding: 15px 10px;
+    min-height: auto;
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 980px) {
+  .profile,
+  .vipLevel,
+  .moneyCount {
+    background: none;
+    border: none;
+    text-align: left;
+  }
+}
+
+@media (max-width: 1115px) {
+  .vipLevel,
+  .moneyCount {
+    width: calc(28% + 1px);
+  }
+}
+@media (max-width: 1200px) {
+  .vipLevel,
+  .moneyCount {
+    min-height: 173px;
+    width: calc(28% + 16px);
+  }
+}
+
+.vipLevel,
+.moneyCount {
+  width: calc(28% + 2px);
+  background: #2f2e2d;
+  border: 1px solid #4a4a4a;
+  display: inline-block;
+  padding: 20px 30px;
+  padding-right: 10px;
+  margin-left: -1px;
+  min-height: 192px;
+  vertical-align: middle;
+}
+
+@media (max-width: 980px) {
+  .moneyCount h3 {
+    position: relative;
+    top: 3px;
+  }
+}
+
+@media (max-width: 980px) {
+  .vipLevel h3,
+  .moneyCount h3 {
+    display: inline-block;
+  }
+}
+.moneyCount h3,
+.vipLevel h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+@media (max-width: 980px) {
+  .moneyNum {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+}
+.moneyNum {
+  margin-top: 15px;
+}
+.moneyNum h1 {
+  font-size: 46px;
+  margin: 0 10px;
+  color: #e7c587;
+  display: inline-block;
+  font-weight: 700;
+  vertical-align: middle;
+}
+@media (max-width: 980px) {
+  .moneyFunc {
+    margin-top: 10px;
+    display: inline-block;
+  }
+}
+.moneyFunc {
+  margin-top: 15px;
+}
+
+.moneyFunc a {
+  border: 1px solid #d1842e;
+  display: inline-block;
+  padding: 5px 10px;
+  padding-top: 6px;
+  margin-right: 15px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+@media (max-width: 1280px) {
+  .moneyFunc a {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 980px) {
+  .moneyFunc a {
+    margin-right: 5px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 980px) {
+  .vipLevel {
+    padding-top: 0;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 980px) {
+  .vipLevel,
+  .moneyCount {
+    padding: 15px 10px;
+    min-height: auto;
+    width: calc(50% - 10px);
+  }
+}
+@media (max-width: 980px) {
+  .profile,
+  .vipLevel,
+  .moneyCount {
+    background: none;
+    border: none;
+    text-align: left;
+  }
+}
+@media (max-width: 1115px) {
+  .vipLevel,
+  .moneyCount {
+    width: calc(28% + 1px);
+  }
+}
+@media (max-width: 1200px) {
+  .vipLevel,
+  .moneyCount {
+    min-height: 173px;
+    width: calc(28% + 16px);
+  }
+}
+.vipLevel,
+.moneyCount {
+  width: calc(28% + 2px);
+  background: #2f2e2d;
+  border: 1px solid #4a4a4a;
+  display: inline-block;
+  padding: 20px 30px;
+  padding-right: 10px;
+  margin-left: -1px;
+  min-height: 192px;
+  vertical-align: middle;
+}
+.vipDesc {
+  color: #a0a0a0;
+  font-size: 16px;
+}
+.vipDesc .M_color {
+  color: #ee6d23;
+}
+.vipDesc span {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 2px;
+}

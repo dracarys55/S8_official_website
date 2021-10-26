@@ -10,9 +10,9 @@ const ActivityBlock = ({ backgroundImage, title, content }) => {
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className='content'>
-          <h3>{title}</h3>
+          <h3 className='activity-block'>{title}</h3>
           <p>{content}</p>
-          <a className='detail-btn' href='/'>
+          <a className='detail-btn' href='/activities'>
             查看詳情
           </a>
         </div>
@@ -22,9 +22,3 @@ const ActivityBlock = ({ backgroundImage, title, content }) => {
 };
 
 export default ActivityBlock;
-
-/* style={{
-    backgroundImage: `url(
-     ${title}
-    )`,
-  }} */

@@ -27,6 +27,7 @@ h3.area-2 {
 div.pics {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
@@ -63,7 +64,6 @@ p.area-2 {
 
 @media (max-width: 600px) {
   p.area-2 {
-    font-size: 20px;
-    padding: 0rem 1rem;
+    padding: 0rem 2rem;
   }
 }

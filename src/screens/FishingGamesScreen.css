@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+div {
+  display: block;
+}
+.fish-game-wrapper {
+  z-index: 1;
+  position: relative;
+}
+
+.fish-game-wrapper .content {
+  margin: 0 auto;
+  width: 100%;
+  background: url(../screens/screensImages/img_bg.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+
+.fish-game-content-logo {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fish-game-content-logo .fish-logo-header {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  width: 90%;
+  max-width: 719px;
+  background: url(../screens/screensImages/fishing_header.png) center no-repeat;
+  z-index: 5;
+  padding-bottom: 16%;
+  background-size: auto 100%;
+}
+
+@media screen and (max-width: 1840px) {
+  .fish-game-content-logo .fish-logo-header {
+    padding-bottom: 19%;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .fish-game-content-logo .fish-logo-header {
+    padding-bottom: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fish-game-content-logo .fish-logo-header {
+    padding-bottom: 36%;
+  }
+}
+
+.fish-game-content-main {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fish-game-content-main .game-content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.glowT {
+  position: absolute;
+  height: 145px;
+  top: -71px;
+  right: 0;
+  left: 0;
+  background: url(../screens/screensImages/img_frame_glow.png) center no-repeat;
+  background-size: 90% 90%;
+  z-index: 3;
+}
+
+.glowB {
+  position: absolute;
+  height: 145px;
+  bottom: -73px;
+  right: 0;
+  left: 0;
+  background: url(../screens/screensImages/img_frame_glow.png) center no-repeat;
+  background-size: 90% 90%;
+  z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .game-content .game-list {
+    width: 90%;
+  }
+}
+
+.game-content .game-list {
+  width: 80%;
+  margin: 0 auto;
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7) 20%,
+    rgba(0, 0, 0, 0.7) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7) 20%,
+    rgba(0, 0, 0, 0.7) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7) 30%,
+    rgba(0, 0, 0, 0.7) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+  z-index: 4;
+  position: relative;
+}
+
+@media screen and (max-width: 1600px) {
+  .game-content .container {
+    width: 100%;
+    padding: 4% 0;
+  }
+}
+
+.game-content .container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding: 4%;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+.game-content ul {
+  text-align: center;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.game-content li {
+  cursor: pointer;
+  margin: 20px;
+  display: inline-block;
+  width: calc(100% / 4 - 45px);
+}
+
+@media screen and (max-width: 1070px) {
+  .game-content li {
+    width: calc(100% / 3 - 45px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-content li {
+    width: calc(100% / 2);
+  }
+}
+@media screen and (max-width: 400px) {
+  .game-content li {
+    width: 100%;
+  }
+  .game-content ul {
+    margin-right: 0rem;
+    padding-left: 0rem;
+  }
+}
+
+.game-content a {
+  display: inline-block;
+}
+
+.game-content li a img {
+  width: 100%;
+}
+
+.shark {
+  width: 15%;
+  position: absolute;
+  left: 20px;
+  top: -12%;
+  z-index: 4;
+}
+
+@media screen and (max-width: 1840px) {
+  .shark {
+    position: absolute;
+    left: 20px;
+    top: -8%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .shark {
+    position: absolute;
+    left: 5px;
+    top: -25%;
+    width: 18%;
+  }
+}
+
+.shark img,
+.turtle img {
+  width: 100%;
+}
+
+.turtle {
+  width: 15%;
+  position: absolute;
+  right: 50px;
+  bottom: -12%;
+  z-index: 4;
+}
+
+@media screen and (max-width: 1840px) {
+  .turtle {
+    position: absolute;
+    right: 50px;
+    bottom: -7%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .turtle {
+    position: absolute;
+    right: 15px;
+    bottom: -2%;
+    width: 20%;
+  }
+}
