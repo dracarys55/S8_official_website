@@ -1,9 +1,6 @@
 import React from 'react';
-import { LinkContainer } from 'react-router-bootstrap';
-import { Container } from 'react-bootstrap';
 import './Footer.css';
 
-import th_sprite1 from '../components/componentsImages/th_sprite1.png';
 import f_logo from '../components/componentsImages/f_logo.png';
 
 const Footer = () => {
@@ -13,9 +10,9 @@ const Footer = () => {
         <img className='f_logo' src={f_logo} alt='logo' />
         <p className='text-light text'>易记域名: www.S8.com</p>
         <div className='text-light menu' href='/'>
-          <a href=''>银行服务 </a>
-          <a href=''>投诉建议 </a>
-          <a href=''>加入收藏</a>
+          <a href='/'>银行服务 </a>
+          <a href='/'>投诉建议 </a>
+          <a href='/'>加入收藏</a>
         </div>
       </div>
       <div className='footer-icons '>

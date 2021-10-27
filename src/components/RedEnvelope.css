@@ -1,0 +1,72 @@
+.bonus-red-pack-btn:nth-child(2) {
+  right: 30px;
+}
+.bonus-red-pack-btn {
+  position: fixed;
+  bottom: 200px;
+  animation: bounce 1.5s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
+  z-index: 5;
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(1.1, 0.9) translateY(0);
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-70px);
+  }
+  50% {
+    -webkit-transform: scale(1.05, 0.95) translateY(0);
+    transform: scale(1.05, 0.95) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1) translateY(-7px);
+    transform: scale(1) translateY(-7px);
+  }
+  64% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+  }
+}
+
+@media (max-width: 1280px) {
+  .red-pack a:nth-child(2) {
+    right: 0;
+  }
+}
+
+@media (max-width: 1280px) {
+  .red-pack a img {
+    transform-origin: left;
+    transform: scale(0.5);
+  }
+}
+
+@media (max-width: 1280px) {
+  .red-pack a:nth-child(2) img {
+    transform-origin: right;
+  }
+}
+@media (max-width: 1280px) {
+  .red-pack a img {
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -ms-transform-origin: left;
+    -o-transform-origin: left;
+    transform-origin: left;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}

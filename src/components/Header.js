@@ -42,7 +42,7 @@ const Header = () => {
           </Nav>
         </Container>
       </Navbar>
-      <Navbar expand='lg' collapseOnSelect>
+      <Navbar expand='lg' className='navbar-area2' collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand className='brand-name'>
@@ -77,7 +77,6 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <hr />
     </>
   );
 };

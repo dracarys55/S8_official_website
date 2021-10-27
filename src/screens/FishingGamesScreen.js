@@ -30,37 +30,37 @@ const FishingGamesScreen = () => {
               <div className='container'>
                 <ul>
                   <li>
-                    <a className='game-logo' href=''>
+                    <a className='game-logo' href='/'>
                       <img src={btn_game_01} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href=''>
+                    <a className='game-logo' href='/'>
                       <img src={btn_game_02} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href=''>
+                    <a className='game-logo' href='/'>
                       <img src={btn_game_03} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href=''>
+                    <a className='game-logo' href='/'>
                       <img src={btn_game_04} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href=''>
+                    <a className='game-logo' href='/'>
                       <img src={btn_game_05} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href=''>
+                    <a className='game-logo' href='/'>
                       <img src={btn_game_06} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href=''>
+                    <a className='game-logo' href='/'>
                       <img src={btn_game_07} alt='' />
                     </a>
                   </li>

@@ -1,6 +1,8 @@
 import React from 'react';
 import Carousel from '../components/Slider';
 import ActivityBlock from '../components/ActivityBlock';
+import RedEnvelope from '../components/RedEnvelope';
+import Widgets from '../components/Widgets';
 import './HomeScreen.css';
 
 import acticyBlockImage1 from '../components/componentsImages/area_1_block1.png';
@@ -15,6 +17,8 @@ const HomeScreen = () => {
   return (
     <>
       <Carousel />
+      <RedEnvelope />
+      <Widgets />
       <section className='ActivityBlock'>
         <ActivityBlock
           backgroundImage={acticyBlockImage1}

@@ -25,7 +25,7 @@ const ActivityScreen = () => {
   };
   return (
     <div>
-      <div class='p_banner' />
+      <div className='p_banner' />
 
       <ActivityNews
         title={'首充赠送100%'}

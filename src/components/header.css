@@ -15,7 +15,8 @@
 }
 
 .navbar-item:hover > i {
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
+  border-color: #fff transparent transparent transparent;
 }
 .navbar i {
   margin-left: 10px;
@@ -27,6 +28,8 @@
   color: #fff;
 }
 .brand-name {
+  padding-top: 0rem;
+  padding-bottom: 0.5rem;
   font-size: 3rem;
 }
 a.nav-link.button {
@@ -57,19 +60,34 @@ button.bookmark {
   padding-left: 15px;
 }
 
-/* 顏色還需修改 */
-hr {
-  margin: 0;
-  /* color: #f8b500 !important;
-  border-color: #f8b500 !important; */
-  background: #fbb104;
-  height: 5px !important;
+nav.navbar-area2 {
+  background-color: #343434;
+}
+
+nav.navbar-area2::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    135deg,
+    #fceabb 0%,
+    #fccd4d 29%,
+    #f7e6bb 51%,
+    #f8b500 73%,
+    #fbdf93 100%
+  );
 }
 
 .collapsing {
   width: 0 !important;
   transition-property: width !important;
   height: 100% !important;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url(./componentsImages/m_icon.svg);
 }
 
 @media (max-width: 1000px) {

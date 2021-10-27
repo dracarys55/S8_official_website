@@ -41,6 +41,7 @@ div.pic {
 }
 
 img.qrCode {
+  margin-bottom: 12px;
   width: 132px;
   height: 132px;
 }
