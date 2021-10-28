@@ -1,0 +1,125 @@
+.memberMain .leftMenu {
+  display: inline-block;
+  width: 260px;
+  vertical-align: top;
+  background: #262625;
+}
+.memberMain .leftMenu > li {
+  background: #2f2e2d;
+  transition: all 0.3s;
+}
+.memberMain .leftMenu a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 28px 35px;
+  padding-right: 5px;
+  display: block;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  background: transparent;
+}
+.memberMain .leftMenu * {
+  vertical-align: middle;
+}
+.memberMain .leftMenu > li.act {
+  background: #161616;
+  position: relative;
+  overflow: hidden;
+}
+.memberMain .leftMenu > li.act > a {
+  position: relative;
+  color: #ebcc8d;
+}
+.memberMain .leftMenu > li.act > a:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #f1c787;
+  background: -moz-linear-gradient(
+    top,
+    #f1c787 0%,
+    #fffdbc 20%,
+    #d6aa6f 66%,
+    #785e3e 100%
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #f1c787 0%,
+    #fffdbc 20%,
+    #d6aa6f 66%,
+    #785e3e 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    #f1c787 0%,
+    #fffdbc 20%,
+    #d6aa6f 66%,
+    #785e3e 100%
+  );
+}
+.memberMain .leftMenu a i {
+  font-family: 'fontello';
+  vertical-align: middle;
+  margin-right: 10px;
+  position: relative;
+  top: -3px;
+}
+.iconFont {
+  font-family: 'fontello' !important;
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.memberMain .leftMenu > li.act .menu_arr {
+  width: 45px;
+  height: 53px;
+  top: -15px;
+  background: url(../screens/screensImages/menu_arr_act.png) no-repeat;
+}
+.memberMain .leftMenu .menu_arr {
+  display: inline-block;
+  width: 53px;
+  height: 45px;
+  position: relative;
+  top: -10px;
+  /*  float: right; */
+  background: url(../screens/screensImages/menu_arr.png) no-repeat;
+}
+.memberMain ul.LMsubMenu {
+  background: #262625;
+  transition: all 0.3s;
+  height: auto;
+  overflow: hidden;
+}
+.memberMain ul.LMsubMenu li.act {
+  background: #1e1e1e;
+}
+.memberMain ul.LMsubMenu li.act a {
+  color: #ebcc8d;
+  background: url(../screens/screensImages/menu_arr_act.png) right no-repeat;
+  background-position-x: 97%;
+}
+.memberMain ul.LMsubMenu li a {
+  color: #a2a2a2;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 18px 65px;
+  padding-right: 5px;
+  display: block;
+  transition: all 0.3s;
+  background: transparent;
+  background-position-x: 95%;
+}
