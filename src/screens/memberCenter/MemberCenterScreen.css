@@ -1,3 +1,9 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .memberMain .leftMenu {
   display: inline-block;
   width: 260px;
@@ -15,10 +21,6 @@
   padding: 28px 35px;
   padding-right: 5px;
   display: block;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
   background: transparent;
 }
@@ -87,7 +89,7 @@
   width: 45px;
   height: 53px;
   top: -15px;
-  background: url(../screens/screensImages/menu_arr_act.png) no-repeat;
+  background: url(../screensImages/menu_arr_act.png) no-repeat;
 }
 .memberMain .leftMenu .menu_arr {
   display: inline-block;
@@ -96,7 +98,7 @@
   position: relative;
   top: -10px;
   /*  float: right; */
-  background: url(../screens/screensImages/menu_arr.png) no-repeat;
+  background: url(../screensImages/menu_arr.png) no-repeat;
 }
 .memberMain ul.LMsubMenu {
   background: #262625;
@@ -109,7 +111,7 @@
 }
 .memberMain ul.LMsubMenu li.act a {
   color: #ebcc8d;
-  background: url(../screens/screensImages/menu_arr_act.png) right no-repeat;
+  background: url(../screensImages/menu_arr_act.png) right no-repeat;
   background-position-x: 97%;
 }
 .memberMain ul.LMsubMenu li a {

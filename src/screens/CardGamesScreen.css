@@ -6,6 +6,7 @@
   vertical-align: baseline;
 }
 .S8-CardGamebg {
+  background-image: url('../screens/screensImages/bg_pattern.jpg');
   padding-bottom: 80px;
 }
 div {
@@ -15,7 +16,36 @@ div {
 div.CardGameBg {
   background-image: url('../screens/screensImages/cardgame_top.png');
   background-repeat: no-repeat;
+  /* background-position: center; */
   padding-top: 386px;
+}
+@media (max-width: 1280px) {
+  div.CardGameBg {
+    background: url('../screens/screensImages/cardgame_top.png') top no-repeat;
+    padding-top: 20%;
+    background-size: 136% auto;
+  }
+}
+@media (max-width: 780px) {
+  div.CardGameBg {
+    background: url('../screens/screensImages/cardgame_top.png') top no-repeat;
+    padding-top: 250px;
+    background-size: 136% auto;
+  }
+}
+@media (max-width: 400px) {
+  div.CardGameBg {
+    background: url('../screens/screensImages/cardgame_top.png') top no-repeat;
+    padding-top: 140px;
+    background-size: 136% auto;
+  }
+}
+
+@media (max-width: 610px) {
+  .p1-tab li,
+  .p2-tab li {
+    padding: 15px 0;
+  }
 }
 
 .container {
@@ -43,6 +73,9 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
+.p1-tab li.off h2 {
+  color: #8d8c8c;
+}
 
 .p1-tab li {
   display: inline-block;
@@ -57,6 +90,36 @@ ul {
   top: -3px;
   width: 24px;
   position: relative;
+}
+@media (max-width: 610px) {
+  .hotGameTab img {
+    width: 15px;
+  }
+}
+@media (max-width: 610px) {
+  .p1-tab h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 610px) {
+  .collectTab img {
+    width: 24px;
+  }
+}
+@media screen and (max-device-width: 1100px) {
+  .act {
+    overflow-x: scroll;
+  }
+}
+@media screen and (max-width: 610px) {
+  .p2-tab .lscardTab img {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .p2-tab .lsnnTab img {
+    width: 28px;
+  }
 }
 
 .p1-tab img {

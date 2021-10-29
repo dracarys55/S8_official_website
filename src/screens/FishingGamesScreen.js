@@ -75,7 +75,7 @@ const FishingGamesScreen = () => {
             </div>
           </div>
 
-          <div class='btn-next'>
+          <div className='btn-next'>
             <img src='img/fishing/btn_next.png' alt='' />
           </div>
         </div>

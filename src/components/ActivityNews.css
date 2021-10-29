@@ -12,13 +12,27 @@ h1.activity-news {
   font-size: 1.5rem;
 }
 .p_banner {
-  background: url(../components/componentsImages/promotionBanner.jpg) center
-    no-repeat;
-  padding-top: 358px;
+  background: url(../components/componentsImages/promotionBanner.jpg) center;
+  background-repeat: no-repeat;
+  padding-top: 280px;
   padding-bottom: 80px;
+}
+@media screen and (max-width: 1300px) {
+  .p_banner {
+    margin-top: 0;
+    padding-top: 25%;
+    background-size: auto 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .p_banner {
+    padding-bottom: 6%;
+  }
 }
 .promote_list {
   background: #1e1e1e;
+  padding: 55px 0;
   position: relative;
 }
 .container {

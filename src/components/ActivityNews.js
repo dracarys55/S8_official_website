@@ -8,24 +8,24 @@ import arrow_up from './componentsImages/arrow_up.svg';
 const ActivityNews = ({ title, activityContent, activityRules }) => {
   return (
     <>
-      <div class='promote_list'>
-        <div class='container'>
-          <div class='promote_list_item'>
-            <div class='p_list_left'>
-              <div class='left_pic'>
+      <div className='promote_list'>
+        <div className='container'>
+          <div className='promote_list_item'>
+            <div className='p_list_left'>
+              <div className='left_pic'>
                 <img src={activity_img} alt='' />
               </div>
-              <div class='left_message'>
-                <h3 class='p_name'>首充赠送100%</h3>
-                <p class='d_date'>2020-12-31 23:59:59</p>
+              <div className='left_message'>
+                <h3 className='p_name'>首充赠送100%</h3>
+                <p className='d_date'>2020-12-31 23:59:59</p>
               </div>
             </div>
-            <div class='p_list_right '>
-              <div class='list_content closeH'>
-                <div class='list_title'>
+            <div className='p_list_right '>
+              <div className='list_content closeH'>
+                <div className='list_title'>
                   <h1 className='activity-news'>{title}</h1>
                 </div>
-                <p class='a_outline'>
+                <p className='a_outline'>
                   活动时间：长期
                   <br />
                   活动对象：所有玩家
@@ -43,16 +43,16 @@ const ActivityNews = ({ title, activityContent, activityRules }) => {
                   </thead>
                 </table>
 
-                <h2 class='list_header'>活动规则</h2>
+                <h2 className='list_header'>活动规则</h2>
 
-                <ol class='a_requirement'>
+                <ol className='a_requirement'>
                   <li>{activityRules.first}</li>
                   <li>{activityRules.two}</li>
                   <li>{activityRules.three}</li>
                 </ol>
               </div>
-              <div class='bottom_btn'>
-                <img class='arrow' src={arrow_up} alt='' />
+              <div className='bottom_btn'>
+                <img className='arrow' src={arrow_up} alt='' />
                 <p>查看詳情</p>
               </div>
             </div>

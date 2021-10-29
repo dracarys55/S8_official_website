@@ -35,11 +35,11 @@ export default class Carousel extends Component {
       //對應到下面的 settings 參數 給予從 react-slick 引入的 Slider 使用
       dots: false,
       infinite: true,
-      speed: 1000,
+      speed: 2000,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: false,
-      autoplaySpeed: 5000,
+      autoplay: true,
+      autoplaySpeed: 6000,
       className: 'slides',
       pauseOnHover: false,
     };

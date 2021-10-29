@@ -1,12 +1,12 @@
 import React from 'react';
 import './MemberCenterUserInfo.css';
 
-import avatarDemo from './componentsImages/avatarDemo.png';
-import icon_phone from './componentsImages/icon_phone.png';
-import icon_mail from './componentsImages/icon_mail.png';
-import icon_sms from './componentsImages/icon_sms.png';
-import icon_coin from './componentsImages/icon_coin.png';
-import icon_reload from './componentsImages/icon_reload.png';
+import avatarDemo from '../componentsImages/avatarDemo.png';
+import icon_phone from '../componentsImages/icon_phone.png';
+import icon_mail from '../componentsImages/icon_mail.png';
+import icon_sms from '../componentsImages/icon_sms.png';
+import icon_coin from '../componentsImages/icon_coin.png';
+import icon_reload from '../componentsImages/icon_reload.png';
 
 const MemberCenterUserInfo = () => {
   return (
@@ -55,14 +55,14 @@ const MemberCenterUserInfo = () => {
         <div className='vipLevel'>
           <h3>会员VIP等级</h3>
           <div className='vipProgress'>
-            <span class='vipTag'>VIP1</span>
+            <span className='vipTag'>VIP1</span>
             <div className='progressBar'>
               <div className='progressBarContent'></div>
             </div>
             <span className='vipTag'>VIP2</span>
           </div>
           <div className='vipDesc'>
-            还需<span class='M_color'>9000</span>存款和
+            还需<span className='M_color'>9000</span>存款和
             <span className='L_color'>99255.20</span>投注额
           </div>
         </div>

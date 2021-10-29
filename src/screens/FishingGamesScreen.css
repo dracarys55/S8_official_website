@@ -212,6 +212,14 @@ ul {
     width: 18%;
   }
 }
+@media screen and (max-width: 790px) {
+  .shark {
+    position: absolute;
+    left: 5px;
+    top: 0%;
+    width: 18%;
+  }
+}
 
 .shark img,
 .turtle img {
