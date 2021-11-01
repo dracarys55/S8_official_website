@@ -30,37 +30,66 @@ const FishingGamesScreen = () => {
               <div className='container'>
                 <ul>
                   <li>
-                    <a className='game-logo' href='/'>
+                    <a
+                      className='game-logo'
+                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <img src={btn_game_01} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href='/'>
+                    <a
+                      className='game-logo'
+                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <img src={btn_game_02} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href='/'>
+                    <a
+                      className='game-logo'
+                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <img src={btn_game_03} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href='/'>
+                    <a
+                      className='game-logo'
+                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <img src={btn_game_04} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href='/'>
+                    <a
+                      className='game-logo'
+                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                    >
                       <img src={btn_game_05} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href='/'>
+                    <a
+                      className='game-logo'
+                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                    >
                       <img src={btn_game_06} alt='' />
                     </a>
                   </li>
                   <li>
-                    <a className='game-logo' href='/'>
+                    <a
+                      className='game-logo'
+                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                    >
                       <img src={btn_game_07} alt='' />
                     </a>
                   </li>

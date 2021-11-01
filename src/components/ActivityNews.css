@@ -164,6 +164,9 @@ table {
   display: inline;
   color: #3b3b3b;
 }
+.bottom_btn.open .arrow {
+  transform: rotate(0deg);
+}
 
 .arrow {
   width: 20px;

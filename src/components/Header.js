@@ -5,7 +5,7 @@ import './Header.css';
 
 import logo from './componentsImages/logo.png';
 
-const Header = () => {
+const Header = ({ handleShow, handleSubmitShow }) => {
   return (
     <>
       <Navbar
@@ -24,16 +24,16 @@ const Header = () => {
             <p>2021/10/21 15:24:40</p>
           </Nav>
           <Nav className='ms-auto'>
-            <LinkContainer to='/member/center'>
-              <Nav.Link className='button'>
-                <button className='login'>登录</button>
-              </Nav.Link>
-            </LinkContainer>
-            <LinkContainer to='/register'>
-              <Nav.Link className='button'>
-                <button className='register'>注册</button>
-              </Nav.Link>
-            </LinkContainer>
+            <Nav.Link className='button'>
+              <button className='login' onClick={handleShow}>
+                登录
+              </button>
+            </Nav.Link>
+            <Nav.Link className='button'>
+              <button className='register' onClick={handleSubmitShow}>
+                注册
+              </button>
+            </Nav.Link>
             <LinkContainer to='/bookmark'>
               <Nav.Link className='button'>
                 <button className='bookmark'>收藏</button>

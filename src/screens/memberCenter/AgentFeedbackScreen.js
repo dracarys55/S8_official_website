@@ -4,10 +4,10 @@ import './MemberCenterpage.css';
 const AgentFeedbackScreen = () => {
   return (
     <div className='memberContent'>
-      <div class='agent_feedback_list hide'>
-        <div class='sr_tab'>
-          <ul class='sr_tab_title'>
-            <li class='on'>
+      <div className='agent_feedback_list hide'>
+        <div className='sr_tab'>
+          <ul className='sr_tab_title'>
+            <li className='on'>
               <h2>电子游艺</h2>
             </li>
             <li>
@@ -23,7 +23,7 @@ const AgentFeedbackScreen = () => {
               <h2>彩票游戏</h2>
             </li>
           </ul>
-          <div class='tableStyle1'>
+          <div className='tableStyle1'>
             <table>
               <thead>
                 <tr>

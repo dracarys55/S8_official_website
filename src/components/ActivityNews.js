@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ActivityNews.css';
 
 import activity_img from './componentsImages/activity_img.png';
@@ -6,6 +6,7 @@ import arrow_up from './componentsImages/arrow_up.svg';
 
 /* props : title, rules */
 const ActivityNews = ({ title, activityContent, activityRules }) => {
+  const [showContent, setShowContent] = useState(false);
   return (
     <>
       <div className='promote_list'>
@@ -21,7 +22,7 @@ const ActivityNews = ({ title, activityContent, activityRules }) => {
               </div>
             </div>
             <div className='p_list_right '>
-              <div className='list_content closeH'>
+              <div className={`list_content ${showContent ? '' : 'closeH'}`}>
                 <div className='list_title'>
                   <h1 className='activity-news'>{title}</h1>
                 </div>
@@ -42,18 +43,30 @@ const ActivityNews = ({ title, activityContent, activityRules }) => {
                     </tr>
                   </thead>
                 </table>
-
                 <h2 className='list_header'>活动规则</h2>
 
                 <ol className='a_requirement'>
                   <li>{activityRules.first}</li>
                   <li>{activityRules.two}</li>
                   <li>{activityRules.three}</li>
+                  {/* 也需要去確認四五六裡面有沒有東西，沒東西的話連 li 都不用顯示 */}
+                  {showContent && activityRules.four ? (
+                    <li>{activityRules.four}</li>
+                  ) : null}
+                  {showContent && activityRules.five ? (
+                    <li>{activityRules.five}</li>
+                  ) : null}
+                  {showContent && activityRules.six ? (
+                    <li>{activityRules.six}</li>
+                  ) : null}
                 </ol>
               </div>
-              <div className='bottom_btn'>
+              <div
+                className={`bottom_btn ${showContent ? 'open' : ''}`}
+                onClick={() => setShowContent(!showContent)}
+              >
                 <img className='arrow' src={arrow_up} alt='' />
-                <p>查看詳情</p>
+                <p>{showContent ? '收起' : '查看詳情'} </p>
               </div>
             </div>
           </div>

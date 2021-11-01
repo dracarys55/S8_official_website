@@ -2,7 +2,7 @@ import React from 'react';
 import './MemberCenterpage.css';
 import BalanceTable from '../../components/memberCenter/BalanceTable';
 
-const Centerpage = () => {
+const CenterScreen = () => {
   return (
     <div className='memberContent'>
       <div className='account_detail'>
@@ -134,4 +134,4 @@ const Centerpage = () => {
   );
 };
 
-export default Centerpage;
+export default CenterScreen;

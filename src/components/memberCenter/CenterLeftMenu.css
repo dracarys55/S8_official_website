@@ -28,6 +28,9 @@
 .memberMain .leftMenu * {
   vertical-align: middle;
 }
+.memberMain .leftMenu a:hover {
+  background: #1e1e1e;
+}
 .memberMain .leftMenu > li.act {
   background: #161616;
   position: relative;
@@ -74,6 +77,17 @@
   position: relative;
   top: -3px;
 }
+ol,
+ul {
+  padding-left: 0 !important;
+}
+.memberMain ul.LMsubMenu li a:hover {
+  background: url(../componentsImages/menu_arr_act.png) right no-repeat;
+  background-position-x: 97%;
+}
+.memberMain ul.LMsubMenu li:hover {
+  background: #1e1e1e;
+}
 .iconFont {
   font-family: 'fontello' !important;
   font-style: normal;
@@ -106,6 +120,7 @@
   transition: all 0.3s;
   height: auto;
   overflow: hidden;
+  margin-top: 0;
 }
 .memberMain ul.LMsubMenu li.act {
   background: #1e1e1e;
@@ -125,4 +140,7 @@
   transition: all 0.3s;
   background: transparent;
   background-position-x: 95%;
+}
+.memberMain ul.LMsubMenu.closeSub {
+  height: 0;
 }

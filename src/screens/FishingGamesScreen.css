@@ -186,8 +186,11 @@ ul {
 
 .game-content li a img {
   width: 100%;
+  transition: all ease 0.6s;
 }
-
+.game-content li a img:hover {
+  width: 120%;
+}
 .shark {
   width: 15%;
   position: absolute;

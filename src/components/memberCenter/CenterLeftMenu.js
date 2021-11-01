@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
 
 import './CenterLeftMenu.css';
 
 const CenterLeftMenu = () => {
+  const [act_1, setAct_1] = useState(false);
+  const [act_2, setAct_2] = useState(false);
+  const [act_3, setAct_3] = useState(false);
+  const [act_4, setAct_4] = useState(false);
   return (
     <ul className='leftMenu'>
-      <li>
-        <LinkContainer to='/member/centerpage'>
+      <li
+        className={act_1 ? 'act' : ''}
+        onClick={() => {
+          setAct_1(true);
+          setAct_2(false);
+          setAct_3(false);
+          setAct_4(false);
+        }}
+      >
+        <LinkContainer to='/member/center'>
           <a id='L1' href='/'>
             <i className='iconFont demo-icon icon-main_m_icon1'>&#xe803;</i>
             中心首页
@@ -15,7 +27,15 @@ const CenterLeftMenu = () => {
           </a>
         </LinkContainer>
       </li>
-      <li className=''>
+      <li
+        className={act_2 ? 'act' : ''}
+        onClick={() => {
+          setAct_1(false);
+          setAct_2(true);
+          setAct_3(false);
+          setAct_4(false);
+        }}
+      >
         <LinkContainer to='/member/moneymanage'>
           <a id='L2' href='/'>
             <i className='iconFont demo-icon icon-main_m_icon02'>&#xe801;</i>
@@ -24,14 +44,14 @@ const CenterLeftMenu = () => {
           </a>
         </LinkContainer>
         <ul className='LMsubMenu'>
-          <li className=''>
+          <li>
             <LinkContainer to='/member/moneymanage'>
               <a href='/' className='L2-1'>
                 存款
               </a>
             </LinkContainer>
           </li>
-          <li className=''>
+          <li>
             <LinkContainer to='/member/moneywithdrawal'>
               <a href='/' className='L2-2'>
                 取款
@@ -47,7 +67,15 @@ const CenterLeftMenu = () => {
           </li>
         </ul>
       </li>
-      <li>
+      <li
+        className={act_3 ? 'act' : ''}
+        onClick={() => {
+          setAct_1(false);
+          setAct_2(false);
+          setAct_3(true);
+          setAct_4(false);
+        }}
+      >
         <LinkContainer to='/member/myvipinfo'>
           <a id='L3' href='/'>
             <i className='iconFont demo-icon icon-main_m_icon03'>&#xe802;</i>
@@ -86,7 +114,15 @@ const CenterLeftMenu = () => {
           </li>
         </ul>
       </li>
-      <li>
+      <li
+        className={act_4 ? 'act' : ''}
+        onClick={() => {
+          setAct_1(false);
+          setAct_2(false);
+          setAct_3(false);
+          setAct_4(true);
+        }}
+      >
         <LinkContainer to='/member/agentpromote'>
           <a id='L4' href='/'>
             <i className='iconFont demo-icon icon-main_m_icon04'>&#xe800;</i>
@@ -94,7 +130,7 @@ const CenterLeftMenu = () => {
             <div className='menu_arr'></div>
           </a>
         </LinkContainer>
-        <ul className='LMsubMenu'>
+        <ul className='LMsubMenu '>
           <li>
             <LinkContainer to='/member/agentpromote'>
               <a id='L4-1' href='/'>

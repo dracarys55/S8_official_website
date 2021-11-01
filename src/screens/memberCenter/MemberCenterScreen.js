@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import MemberCenterUserInfo from '../../components/memberCenter/MemberCenterUserInfo';
 import CenterLeftMenu from '../../components/memberCenter/CenterLeftMenu';
-import Centerpage from './Centerpage';
+import CenterScreen from './CenterScreen';
 import MoneyManageScreen from './MoneyManageScreen';
 import MoneyWithdrawlScreen from './MoneyWithdrawlScreen';
 import MoneyRecordScreen from './MoneyRecordScreen';
@@ -25,7 +25,7 @@ const MemberCenterScreen = () => {
         <div className='container'>
           <CenterLeftMenu />
           <Switch>
-            <Route path='/member/centerpage' component={Centerpage} />
+            <Route path='/member/center' component={CenterScreen} />
             <Route path='/member/moneymanage' component={MoneyManageScreen} />
             <Route
               path='/member/moneywithdrawal'
