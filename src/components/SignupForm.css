@@ -1,0 +1,101 @@
+.popHead {
+  color: #fff1dc;
+  font-size: 22px;
+  margin: 0 -3vw;
+  text-align: center;
+  position: relative;
+  padding: 18px 15px;
+  background: #464646;
+
+  background: linear-gradient(
+    45deg,
+    #464646 0%,
+    #323232 10%,
+    #464646 24%,
+    #2b2b2b 26%,
+    #0e0e0e 65%,
+    #727272 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#727272',GradientType=1 );
+}
+.Register .popContent {
+  padding: 0 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.inputGroup {
+  padding: 15px 0;
+  position: relative;
+}
+.account input {
+  background: #101010 url(../components/componentsImages/user.svg) left
+    no-repeat;
+  padding-left: 40px;
+  background-size: 38px;
+}
+.inputGroup .errorMsg {
+  color: #ff4949;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  font-size: 15px;
+  display: none;
+  padding: 3 px 0;
+}
+.inputGroup.require:after {
+  content: '*';
+  position: absolute;
+  left: -25px;
+  color: red;
+  font-size: 40px;
+  width: 40px;
+  top: 30%;
+}
+.pw input,
+.confirmPw input {
+  background: #101010 url(../components/componentsImages/password.svg) left
+    no-repeat;
+  padding-left: 40px;
+  background-size: 38px;
+}
+.name input {
+  background: #101010 url(../components/componentsImages/name.svg) left
+    no-repeat;
+  padding-left: 40px;
+  background-size: 30px;
+  background-position-x: 5px;
+}
+.imgVerify input,
+.getVerifyCode input {
+  background: #101010;
+  width: calc(100% - 160px);
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.imgVerify > img {
+  display: inline-block;
+  width: 5rem;
+  height: 3rem;
+}
+.phone input {
+  background: #101010 url(../components/componentsImages/mobile.svg) left
+    no-repeat;
+  padding-left: 40px;
+  background-size: 28px;
+  background-position-x: 5px;
+}
+.validate input {
+  background: #101010 url(../components/componentsImages/validate.svg) left
+    no-repeat;
+  padding-left: 40px;
+  background-size: 25px;
+  background-position-x: 7px;
+}
+.email input {
+  background: #101010 url(../components/componentsImages/mail.svg) left
+    no-repeat;
+  padding-left: 40px;
+  background-size: 30px;
+  background-position-x: 5px;
+}

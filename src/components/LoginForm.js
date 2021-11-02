@@ -16,33 +16,31 @@ const LoginForm = ({ handleClose, show, handleShow, handleSubmitShow }) => {
       <Modal show={show} onHide={handleClose} dialogClassName='loginBox'>
         <Modal.Title className='popHead'>
           会员安全登录
-          <a href='#' className='closeBtn' onClick={handleClose}>
-            <img src={close_w} alt='' className='close' />
-          </a>
+          <img src={close_w} alt='' className='close' onClick={handleClose} />
         </Modal.Title>
 
         <div className='popContent'>
-          <div class='inputGroup account'>
-            <input type='text' placeholder='游戏帐户' />
+          <div className='inputGroup account'>
+            <input type='text' placeholder='游戏帐户' pattern='[a-zA-Z0-9]' />
             {/* <div class='errorMsg'>账号有误！</div> */}
           </div>
-          <div class='inputGroup pw'>
+          <div className='inputGroup pw'>
             <input type='password' placeholder='输入密码' />
             {/*  <div class='errorMsg'>密码有误！</div> */}
           </div>
           <a href='/member/center'>
-            <input class='submit' type='submit' value='登录' />
+            <input className='submit' type='submit' value='登录' />
           </a>
 
-          <div class='inputOther'>
-            <div class='flle'>
-              <a class='forgotPW' href='/'>
+          <div className='inputOther'>
+            <div className='flle'>
+              <a className='forgotPW' href='/'>
                 忘记密码
               </a>
             </div>
-            <div class='flri'>
+            <div className='flri'>
               <p>还没有帐号 ?</p>
-              <a class='register' href='/' onClick={change}>
+              <a className='register' href='/' onClick={change}>
                 立即注册
               </a>
             </div>
@@ -52,10 +50,10 @@ const LoginForm = ({ handleClose, show, handleShow, handleSubmitShow }) => {
             <p>透过社群帐号快速登录</p>
           </div>
           <div class='socialLinks'>
-            <a href=''>
+            <a href='/'>
               <img class='close' src={FbBtn} alt='' />
             </a>
-            <a href=''>
+            <a href='/'>
               <img class='close' src={LineBtn} alt='' />
             </a>
           </div>

@@ -85,6 +85,22 @@ ul {
   padding: 20px 0;
   cursor: pointer;
 }
+/* .p1-tab > li:before {
+  content: '';
+  width: calc(100% + 2px);
+  height: 5px;
+  position: absolute;
+  background: yellow;
+  top: -5px;
+  left: 0;
+  background-image: linear-gradient(
+    to right,
+    #b07515,
+    #ffffd7,
+    #b07515,
+    #f5d77f
+  );
+} */
 
 .hotGameTab img {
   top: -3px;

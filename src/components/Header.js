@@ -5,7 +5,7 @@ import './Header.css';
 
 import logo from './componentsImages/logo.png';
 
-const Header = ({ handleShow, handleSubmitShow }) => {
+const Header = ({ handleShow, handleSignupShow }) => {
   return (
     <>
       <Navbar
@@ -30,7 +30,7 @@ const Header = ({ handleShow, handleSubmitShow }) => {
               </button>
             </Nav.Link>
             <Nav.Link className='button'>
-              <button className='register' onClick={handleSubmitShow}>
+              <button className='register' onClick={handleSignupShow}>
                 注册
               </button>
             </Nav.Link>
