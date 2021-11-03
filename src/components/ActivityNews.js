@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import './ActivityNews.css';
 
 import activity_img from './componentsImages/activity_img.png';
@@ -6,7 +7,12 @@ import arrow_up from './componentsImages/arrow_up.svg';
 
 /* props : title, rules */
 const ActivityNews = ({ title, activityContent, activityRules }) => {
+  const { t } = useTranslation();
   const [showContent, setShowContent] = useState(false);
+
+  const P_name = t('ActivityNews.ActivityNews_utils.P_name');
+  const HideButton = t('ActivityNews.ActivityNews_utils.HideButton');
+  const ShowButton = t('ActivityNews.ActivityNews_utils.ShowButton');
   return (
     <>
       <div className='promote_list'>
@@ -17,7 +23,7 @@ const ActivityNews = ({ title, activityContent, activityRules }) => {
                 <img src={activity_img} alt='' />
               </div>
               <div className='left_message'>
-                <h3 className='p_name'>首充赠送100%</h3>
+                <h3 className='p_name'>{P_name}</h3>
                 <p className='d_date'>2020-12-31 23:59:59</p>
               </div>
             </div>
@@ -27,23 +33,26 @@ const ActivityNews = ({ title, activityContent, activityRules }) => {
                   <h1 className='activity-news'>{title}</h1>
                 </div>
                 <p className='a_outline'>
-                  活动时间：长期
+                  {t('ActivityNews.ActivityNews_utils.ActivityTime')}
                   <br />
-                  活动对象：所有玩家
+                  {t('ActivityNews.ActivityNews_utils.ActivityObject')}
                   <br />
-                  活动内容：{activityContent}
+                  {t('ActivityNews.ActivityNews_utils.ActivityContent')}
+                  {activityContent}
                 </p>
                 <table className='list_table'>
                   <thead>
                     <tr>
-                      <th>首充金额</th>
-                      <th>每天赠送金币</th>
-                      <th>累计领取金币</th>
-                      <th>提款要求</th>
+                      <th>{t('ActivityNews.ActivityNews_utils.Th_1')}</th>
+                      <th>{t('ActivityNews.ActivityNews_utils.Th_2')}</th>
+                      <th>{t('ActivityNews.ActivityNews_utils.Th_3')}</th>
+                      <th>{t('ActivityNews.ActivityNews_utils.Th_4')}</th>
                     </tr>
                   </thead>
                 </table>
-                <h2 className='list_header'>活动规则</h2>
+                <h2 className='list_header'>
+                  {t('ActivityNews.ActivityNews_utils.ActivityRules')}
+                </h2>
 
                 <ol className='a_requirement'>
                   <li>{activityRules.first}</li>
@@ -66,7 +75,7 @@ const ActivityNews = ({ title, activityContent, activityRules }) => {
                 onClick={() => setShowContent(!showContent)}
               >
                 <img className='arrow' src={arrow_up} alt='' />
-                <p>{showContent ? '收起' : '查看詳情'} </p>
+                <p>{showContent ? HideButton : ShowButton} </p>
               </div>
             </div>
           </div>

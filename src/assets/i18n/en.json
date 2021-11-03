@@ -1,0 +1,102 @@
+{
+  "Header": {
+    "Home": "Home",
+    "Electronic": "Electronic",
+    "Board": "Board",
+    "Fishing": "Fishing",
+    "Lottery": "Lottery",
+    "Promotions": "Promotions",
+    "Login": "Login",
+    "Register": "Register",
+    "Bookmark": "Bookmark"
+  },
+  "Activity": {
+    "Block_1": {
+      "Title": "New Member Offer",
+      "Content": "More discounts for VIP"
+    },
+    "Block_2": {
+      "Title": "Discounts for video games",
+      "Content": "25% discount on video exclusive deposit"
+    },
+    "Block_3": {
+      "Title": "Live chat exclusive offers",
+      "Content": "Members receive a 30% bonus on their first deposit"
+    },
+    "Block_utils": {
+      "Button": "Details"
+    },
+    "TextSection": {
+      "Title": "Extremely Smoothing Experience",
+      "Content_1": "The world's first integrated entertainment native APP, massive sports, e-sports events and live entertainment.",
+      "Content_2": "We have chess and card games,lottery betting, electronic games and other entertainment items. Scan the code to download immediately."
+    },
+    "Pic_1": {
+      "Content_1": "Scan and download APP ",
+      "Content_2": " iOS & Android"
+    },
+    "Pic_2": {
+      "Content_1": "Visit out website directly",
+      "Content_2": "http://127.0.0.1:8081/"
+    }
+  },
+  "Footer": {
+    "Title": "Our domain: www.S8.com",
+    "BankService": "BankService",
+    "Advise": "Advising",
+    "Bookmark": "Bookmark"
+  },
+  "CardGameScreen": {
+    "HotGameTab": "Top games",
+    "CollectTab": "My collection",
+    "LscardTab": "Le Sheng Chess",
+    "LsnnTab": "Le Sheng Niuniu"
+  },
+  "ActivityNews": {
+    "ActivityNews_1": {
+      "Title": "100% free for the first charge",
+      "ActivityContent": "100% giveaway for the first recharge",
+      "ActivityRules": {
+        "first": "Anyone who registers on the platform for the first recharge of 100 baht or more will get 100% refund",
+        "two": "You will receive items  for 30 days",
+        "three": "The betting flow does not include game types such as tumbling, Water Margin, Lucky Six Lions, etc.",
+        "four": "Each player with the same payment method (same debit card, credit card, bank account) and IP address can only enjoy the offer once. If the member has repeated account application, the company reserves the right to cancel or withdraw the member bonus",
+        "five": "All the discounts of our company are specially designed for players. If any group or individual is found to claim bonuses or any threats in a dishonest way, abuse of company discounts, etc., the company reserves, freezes, and cancels the rights of the group or individual account balance , The company reserves the right of final interpretation",
+        "six": "Event prizes can be divided by double the turnover"
+      }
+    },
+    "ActivityNews_2": {
+      "Title": "Recharge gift, up to 2% rebate",
+      "ActivityContent": "Recharge gift activity",
+      "ActivityRules": {
+        "first": "Recharge in the recharge activity area, and you can get a bonus of up to 2% of the recharge amount, pen recharge, pen and pen free",
+        "two": "The bet needs to reach twice the turnover of the recharge, and then you can withdraw it. If the bet does not reach the double turnover, the gift bonus will be deducted when withdrawing.",
+        "three": "For example: top up 100 baht gold coins and get 1 yuan gold coin. After betting 100 baht gold coins, there is no limit to withdrawing. If the bet does not reach 100 yuan, 1 baht gold coin will be deducted when withdrawing.",
+        "four": "The betting flow does not include bets on game types such as Overwhelming, Water Margin, and Lucky Six Lions."
+      }
+    },
+    "ActivityNews_3": {
+      "Title": "Rebate blood and rebate, give charcoal in the snow to help you make a comeback",
+      "ActivityContent": "Blood rebate activity",
+      "ActivityRules": {
+        "first": "During the event period, accounts with a loss of 1,000 baht or more from Monday to Saturday can apply for the blood rebate on this Saturday",
+        "two": "You can receive the blood rebate transfer fee on Sundays",
+        "three": "The same IP, the same member, the same name withdrawing bank card number cannot be repeated, any member or group playing the game in an abnormal way",
+        "four": "In order to avoid differences in text understanding, the final interpretation right of this event belongs to the official"
+      }
+    },
+    "ActivityNews_utils": {
+      "P_name": "100% free for the first charge",
+      "ActivityTime": "Activity time : Long-term",
+      "ActivityObject": "Activity object : All players",
+      "ActivityContent": "Activity content :",
+      "ActivityRules": "Activity rules",
+      "Th_1": "First deposit",
+      "Th_2": "Give away gold coins",
+      "Th_3": "Accumulated gold coins",
+      "Th_4": "Withdrawal requirements",
+      "HideButton": "Hide",
+      "ShowButton": "Show"
+    }
+  }
+}

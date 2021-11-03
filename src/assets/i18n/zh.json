@@ -1,0 +1,102 @@
+{
+  "Header": {
+    "Home": "首页",
+    "Electronic": "电子游艺",
+    "Board": "棋牌游戏",
+    "Fishing": "捕鱼游戏",
+    "Lottery": "彩票游戏",
+    "Promotions": "优惠活动",
+    "Login": "登录",
+    "Register": "注册",
+    "Bookmark": "收藏"
+  },
+  "Activity": {
+    "Block_1": {
+      "Title": "新会员优惠",
+      "Content": "更多优惠尽在VIP"
+    },
+    "Block_2": {
+      "Title": "电子游戏专属优惠",
+      "Content": "电子游艺专属存款送25%优惠"
+    },
+    "Block_3": {
+      "Title": "真人视讯专属优惠",
+      "Content": "会员首笔存款得30％的奖金"
+    },
+    "Block_utils": {
+      "Button": "查看詳情"
+    },
+    "TextSection": {
+      "Title": "极致流畅 触手可及",
+      "Content_1": "全球首家一体化娱乐原生APP，海量体育、电竞赛事更有真人娱乐、棋牌游戏",
+      "Content_2": "彩票投注、电子游艺等娱乐项目。扫码下载，立即掌中体验"
+    },
+    "Pic_1": {
+      "Content_1": "扫码下载APP",
+      "Content_2": " iOS & Android"
+    },
+    "Pic_2": {
+      "Content_1": "无需下载直接访问 ",
+      "Content_2": "http://127.0.0.1:8081/"
+    }
+  },
+  "Footer": {
+    "Title": "易记域名: www.S8.com",
+    "BankService": "银行服务",
+    "Advise": "投诉建议",
+    "Bookmark": "加入收藏"
+  },
+  "CardGameScreen": {
+    "HotGameTab": "热门游戏",
+    "CollectTab": "我的收藏",
+    "LscardTab": "乐胜棋牌",
+    "LsnnTab": "乐胜牛牛"
+  },
+  "ActivityNews": {
+    "ActivityNews_1": {
+      "Title": "首充赠送100%",
+      "ActivityContent": "首次充值赠送100%",
+      "ActivityRules": {
+        "first": "凡是在平台注册第一笔充值100泰铢以上，可获得返利100%",
+        "two": "冲的多，送的多，可连续领取30天",
+        "three": "投注流水不包含排山倒海，水浒传，幸运六狮等游戏类型",
+        "four": "每位玩家相同支付方式（相同借记卡，信用卡，银行账号）及IP地址只能享有一次优惠，若会员有重复申请账号的行为，公司保留取消或收回会员优惠彩金的权利",
+        "five": "本司的所有优惠特为玩家而设，如发现任何团体或个人，以不诚实的方式套取红利或任何威胁，滥用公司优惠等行为，公司保留，冻结，取消该团体或个人账号结余的权利，本司保留最终解释权",
+        "six": "活动彩金一倍流水即可下分"
+      }
+    },
+    "ActivityNews_2": {
+      "Title": "充值赠送，最高返利2%",
+      "ActivityContent": "充值赠送活动",
+      "ActivityRules": {
+        "first": "在充值活动专区充值，最高可获赠充值额2%的彩金，笔笔充，笔笔送",
+        "two": "押注需达到充值额一倍流水，即可提现，若押注未达一倍流水，提现时则需扣除赠送的彩金",
+        "three": "举例：充值100泰铢金币，获赠1元金币，在押注100泰铢金币后，提现无限制，若押注未达到100元，提现时则需扣除1泰铢 金币",
+        "four": "投注流水不包含排山倒海，水浒传，幸运六狮等游戏类型的押注."
+      }
+    },
+    "ActivityNews_3": {
+      "Title": "回血返利，雪中送炭助您东山再起",
+      "ActivityContent": "回血返利活动",
+      "ActivityRules": {
+        "first": "在活动时间内，每周一至周六亏损达到到1000泰铢以上的账号，在本周六可申请回血返利金",
+        "two": "周日可领取回血返利转运 金,逾期未领视为放弃",
+        "three": "同一IP,同一会员，同一姓名取款银行卡号不可重复领取，任何会员或团体以不正常方式进行游戲",
+        "four": "为避免文字理解差异，本活动最终解释权归官方所有"
+      }
+    },
+    "ActivityNews_utils": {
+      "P_name": "首充赠送100%",
+      "ActivityTime": "活动时间：长期",
+      "ActivityObject": "活动对象：所有玩家",
+      "ActivityContent": "活动内容 : ",
+      "ActivityRules": "活动规则",
+      "Th_1": "首充金额",
+      "Th_2": "每天赠送金币",
+      "Th_3": "累计领取金币",
+      "Th_4": "提款要求",
+      "HideButton": "收起",
+      "ShowButton": "查看詳情"
+    }
+  }
+}

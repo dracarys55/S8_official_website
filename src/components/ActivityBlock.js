@@ -1,8 +1,9 @@
 import React from 'react';
 import './ActivityBlock.css';
+import { useTranslation } from 'react-i18next';
 
-/* 需了解解構 參數 用法 */
 const ActivityBlock = ({ backgroundImage, title, content }) => {
+  const { t } = useTranslation();
   return (
     <div className='activity-block'>
       <div
@@ -13,7 +14,7 @@ const ActivityBlock = ({ backgroundImage, title, content }) => {
           <h3 className='activity-block'>{title}</h3>
           <p>{content}</p>
           <a className='detail-btn' href='/activities'>
-            查看詳情
+            {t('Activity.Block_utils.Button')}
           </a>
         </div>
       </div>

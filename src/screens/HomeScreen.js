@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from '../components/Slider';
 import ActivityBlock from '../components/ActivityBlock';
 import RedEnvelope from '../components/RedEnvelope';
+import { useTranslation } from 'react-i18next';
 import './HomeScreen.css';
 
 import acticyBlockImage1 from '../components/componentsImages/area_1_block1.png';
@@ -13,6 +14,8 @@ import area_2_html5 from '../screens/screensImages/area_2_html5.png';
 
 //官方網站首頁
 const HomeScreen = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <Carousel />
@@ -20,40 +23,44 @@ const HomeScreen = () => {
       <section className='ActivityBlock'>
         <ActivityBlock
           backgroundImage={acticyBlockImage1}
-          title={'新会员优惠'}
-          content={'更多优惠尽在VIP'}
+          title={t('Activity.Block_1.Title')}
+          content={t('Activity.Block_1.Content')}
         />
         <ActivityBlock
           backgroundImage={acticyBlockImage2}
-          title={'电子游戏专属优惠'}
-          content={'电子游艺专属存款送25%优惠'}
+          title={t('Activity.Block_2.Title')}
+          content={t('Activity.Block_2.Content')}
         />
         <ActivityBlock
           backgroundImage={acticyBlockImage3}
-          title={'真人视讯专属优惠'}
-          content={'会员首笔存款得30％的奖金'}
+          title={t('Activity.Block_3.Title')}
+          content={t('Activity.Block_3.Content')}
         />
       </section>
       <div className='area-2'>
         <img src={area_2_pic} alt='' className='img-area-2' />
         <div className='textSection'>
-          <h3 className='text-light area-2'>极致流畅 触手可及</h3>
+          <h3 className='text-light area-2'>
+            {t('Activity.TextSection.Title')}
+          </h3>
           <p className='text-light area-2'>
-            全球首家一体化娱乐原生APP，海量体育、电竞赛事更有真人娱乐、棋牌游戏
+            {t('Activity.TextSection.Content_1')}
             <br />
-            彩票投注、电子游艺等娱乐项目。扫码下载，立即掌中体验
+            {t('Activity.TextSection.Content_2')}
           </p>
           <div className='pics'>
             <div className='pic'>
               <img src={area_2_qrcode} alt='' className='qrCode' />
               <p className='text-light area-2'>
-                扫码下载APP <br /> iOS & Android
+                {t('Activity.Pic_1.Content_1')} <br />
+                {t('Activity.Pic_1.Content_2')}
               </p>
             </div>
             <div className='pic'>
               <img src={area_2_html5} alt='' className='h5' />
               <p className='text-light area-2'>
-                无需下载直接访问 <br /> http://127.0.0.1:8081/
+                {t('Activity.Pic_2.Content_1')} <br />
+                {t('Activity.Pic_2.Content_2')}
               </p>
             </div>
           </div>

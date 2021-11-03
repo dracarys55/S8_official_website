@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import './CardGamesScreen.css';
 
 import hotGameTab from './screensImages/hotGameTab_icon.png';
@@ -7,6 +8,7 @@ import poker from './screensImages/poker_icon.png';
 import cow from './screensImages/cow_icon.png';
 
 const CardGamesScreen = () => {
+  const { t } = useTranslation();
   const [part_1_off, setPart_1_Off] = useState(true);
   const [part_2_off, setPart_2_Off] = useState(true);
   return (
@@ -20,14 +22,14 @@ const CardGamesScreen = () => {
                 onClick={() => setPart_1_Off(false)}
               >
                 <img src={hotGameTab} alt='hotGameTab' />
-                <h2>热门游戏</h2>
+                <h2>{t('CardGameScreen.HotGameTab')}</h2>
               </li>
               <li
                 className={`collectTab ${part_1_off ? '' : 'off'}`}
                 onClick={() => setPart_1_Off(true)}
               >
                 <img src={collectTab} alt='collectTab' />
-                <h2>我的收藏</h2>
+                <h2>{t('CardGameScreen.CollectTab')}</h2>
               </li>
             </ui>
             <ul className='tabContainer'>
@@ -47,14 +49,14 @@ const CardGamesScreen = () => {
                 onClick={() => setPart_2_Off(false)}
               >
                 <img src={poker} alt='poker' />
-                <h2>乐胜棋牌</h2>
+                <h2>{t('CardGameScreen.LscardTab')}</h2>
               </li>
               <li
                 className={`lsnnTab ${part_2_off ? '' : 'off'}`}
                 onClick={() => setPart_2_Off(true)}
               >
                 <img src={cow} alt='' />
-                <h2>乐胜牛牛</h2>
+                <h2>{t('CardGameScreen.LsnnTab')}</h2>
               </li>
             </ui>
             <ul className='tabContainer'>

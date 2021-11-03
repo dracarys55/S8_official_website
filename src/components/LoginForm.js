@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Modal } from 'react-bootstrap';
+import FacebookLogin from 'react-facebook-login';
 import './LoginForm.css';
 
 import close_w from './componentsImages/close_w.svg';
@@ -7,10 +8,21 @@ import FbBtn from './componentsImages/FbBtn.png';
 import LineBtn from './componentsImages/LineBtn.png';
 
 const LoginForm = ({ handleClose, show, handleShow, handleSubmitShow }) => {
-  const change = () => {
-    handleClose();
-    /* handleSubmitShow(); */
-  };
+  /* const [login, setLogin] = useState(false);
+  const [data, setData] = useState({});
+  const [picture, setPicture] = useState('');
+
+  const responseFacebook = (response) => {
+    console.log(response);
+    setData(response);
+    setPicture(response.picture.data.url);
+    if (response.accessToken) {
+      setLogin(true);
+    } else {
+      setLogin(false);
+    }
+  }; */
+
   return (
     <div>
       <Modal show={show} onHide={handleClose} dialogClassName='loginBox'>
@@ -40,7 +52,7 @@ const LoginForm = ({ handleClose, show, handleShow, handleSubmitShow }) => {
             </div>
             <div className='flri'>
               <p>还没有帐号 ?</p>
-              <a className='register' href='/' onClick={change}>
+              <a className='register' href='/' onClick={handleClose}>
                 立即注册
               </a>
             </div>
@@ -53,6 +65,15 @@ const LoginForm = ({ handleClose, show, handleShow, handleSubmitShow }) => {
             <a href='/'>
               <img class='close' src={FbBtn} alt='' />
             </a>
+            {/* <FacebookLogin
+              appId='1027953054670202'
+              autoLoad={false}
+              fields='name,email,picture'
+              scope='public_profile'
+              callback={responseFacebook}
+              icon='fa-facebook'
+            /> */}
+
             <a href='/'>
               <img class='close' src={LineBtn} alt='' />
             </a>

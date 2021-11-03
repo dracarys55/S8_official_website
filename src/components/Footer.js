@@ -1,18 +1,20 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Footer.css';
 
 import f_logo from '../components/componentsImages/f_logo.png';
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className='area-1'>
         <img className='f_logo' src={f_logo} alt='logo' />
-        <p className='text-light text'>易记域名: www.S8.com</p>
+        <p className='text-light text'>{t('Footer.Title')}</p>
         <div className='text-light menu' href='/'>
-          <a href='/'>银行服务 </a>
-          <a href='/'>投诉建议 </a>
-          <a href='/'>加入收藏</a>
+          <a href='/'>{t('Footer.BankService')} </a>
+          <a href='/'>{t('Footer.Advise')} </a>
+          <a href='/'>{t('Footer.Bookmark')}</a>
         </div>
       </div>
       <div className='footer-icons '>
