@@ -1,10 +1,12 @@
 import React from 'react';
 import { Modal } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 import './SignupForm.css';
 
 import captcha from './componentsImages/captcha.jpg';
 import close_w from './componentsImages/close_w.svg';
 const SignupForm = ({ handleSignupClose, signupshow }) => {
+  const { t } = useTranslation();
   return (
     <div>
       <Modal
@@ -13,7 +15,7 @@ const SignupForm = ({ handleSignupClose, signupshow }) => {
         dialogClassName='loginBox'
       >
         <Modal.Title className='popHead'>
-          会员注册
+          {t('SignupForm.Title')}
           <img
             src={close_w}
             alt=''
@@ -27,55 +29,46 @@ const SignupForm = ({ handleSignupClose, signupshow }) => {
         </a>
         <div className='popContent'>
           <div className='inputGroup account OK require'>
-            <input type='text' placeholder='帐号:6-12位的字母加数字的组合' />
+            <input type='text' placeholder={t('SignupForm.Account')} />
             {/*  <div class='errorMsg'>账号有误</div> */}
           </div>
           <div className='inputGroup pw require'>
-            <input
-              type='password'
-              placeholder='密码:6-12位的字母加数字的组合'
-            />
+            <input type='password' placeholder={t('SignupForm.Password')} />
             {/* <div class='errorMsg'>密码有误！</div> */}
           </div>
           <div className='inputGroup confirmPw require'>
-            <input
-              type='password'
-              placeholder='确认密码:6-12位的字母加数字的组合'
-            />
+            <input type='password' placeholder={t('SignupForm.ConfirmPw')} />
             {/* <div className='errorMsg'></div> */}
           </div>
           <div className='inputGroup name require'>
-            <input
-              type='text'
-              placeholder='真实姓名:名字必须与您存提款的银行帐户名字相同'
-            />
+            <input type='text' placeholder={t('SignupForm.Name')} />
             {/*  <div class='errorMsg'></div> */}
           </div>
           <div className='inputGroup imgVerify  require'>
-            <input type='text' placeholder='请输入图片验证码' />
+            <input type='text' placeholder={t('SignupForm.ImgVerify')} />
             {/* <div class='errorMsg'></div> */}
             <img src={captcha} alt='' />
           </div>
 
           <div className='inputGroup phone require'>
-            <input type='text' placeholder='联系电话:请填写您的手机号码' />
+            <input type='text' placeholder={t('SignupForm.Phone')} />
             {/* <div class='errorMsg'></div> */}
             {/* <div class='sendAgain'></div> */}
           </div>
           <div class='inputGroup validate require'>
-            <input type='text' placeholder='输入手機验证码' />
+            <input type='text' placeholder={t('SignupForm.Validate')} />
             {/* <div class='errorMsg'></div> */}
           </div>
           <div class='inputGroup email require'>
-            <input type='email' placeholder='电子信箱:请填写您的电子邮箱' />
+            <input type='email' placeholder={t('SignupForm.Email')} />
             <div class='errorMsg'></div>
           </div>
 
-          <input class='submit' type='submit' value='立即注册' />
+          <input class='submit' type='submit' value={t('SignupForm.Submit')} />
           <div class='inputOther'>
             <label for='rights'>
               <input type='checkbox' id='rights' />
-              我已经年满18岁，且在此网站所有活动并没有牴触本人所在国家所管辖的法律
+              {t('SignupForm.Rights')}
             </label>
           </div>
         </div>

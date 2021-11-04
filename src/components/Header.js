@@ -19,9 +19,7 @@ const Header = ({ handleShow, handleSignupShow }) => {
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
-  {
-    /* <img className='country_icon' src={icon_lang_cn} alt='' /> */
-  }
+  /* <img className='country_icon' src={icon_lang_cn} alt='' /> */
   return (
     <>
       <Navbar

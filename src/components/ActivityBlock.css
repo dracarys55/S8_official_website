@@ -1,5 +1,6 @@
 div.activity-block {
   display: flex;
+  flex-wrap: wrap;
   padding: 0rem 1rem;
 }
 div.block {
@@ -8,8 +9,8 @@ div.block {
   background-size: contain;
   width: 25rem;
   height: 100%;
-  /* margin: 0 15px; */
-  /* position: relative; */
+  margin: 0 15px;
+  position: relative;
   padding-bottom: 17.2%;
 }
 
@@ -17,7 +18,14 @@ h3.activity-block {
   margin-top: 4rem;
   margin-left: 2rem;
   font-weight: bold;
+  /*font-size: calc(18px / var(--Cardinality)); */
 }
+/* Z8寫法 */
+/* @media screen and (max-width: 1550px) and (min-width: 0) {
+  :root {
+    --Cardinality: 1.22;
+  }
+} */
 
 div.content p {
   margin-top: 0.5rem;

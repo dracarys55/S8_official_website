@@ -1,19 +1,21 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './MemberCenterpage.css';
 
 import setting from '../screensImages/member/setting.png';
 
 const MyTextScreen = () => {
+  const { t } = useTranslation();
   return (
     <div className='memberContent'>
       <div className='personalCenter_myMsg_mail minH900 hide'>
         <div className='sr_tab'>
           <ul className='sr_tab_title'>
             <li className='on' id='myMsg_mail'>
-              <h2>收件箱</h2>
+              <h2>{t('MyTextScreen.Sr_tab_title_1')}</h2>
             </li>
             <li id='myMsg_suggest'>
-              <h2>投诉建议</h2>
+              <h2>{t('MyTextScreen.Sr_tab_title_2')}</h2>
             </li>
           </ul>
         </div>
@@ -21,15 +23,15 @@ const MyTextScreen = () => {
           <table>
             <thead>
               <tr>
-                <th>状态</th>
-                <th>主题</th>
-                <th>时间</th>
-                <th>操作</th>
+                <th>{t('MyTextScreen.TableStyle1_1')}</th>
+                <th>{t('MyTextScreen.TableStyle1_2')}</th>
+                <th>{t('MyTextScreen.TableStyle1_3')}</th>
+                <th>{t('MyTextScreen.TableStyle1_4')}</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>未读</td>
+                <td>{t('MyTextScreen.Unread')}</td>
                 <td>Daily Bonus!</td>
                 <td>2020-08-19 00:25:08</td>
                 <td>
@@ -37,7 +39,7 @@ const MyTextScreen = () => {
                 </td>
               </tr>
               <tr>
-                <td>未读</td>
+                <td>{t('MyTextScreen.Unread')}</td>
                 <td>Daily Bonus!</td>
                 <td>2020-08-19 00:25:08</td>
                 <td>
@@ -45,7 +47,7 @@ const MyTextScreen = () => {
                 </td>
               </tr>
               <tr>
-                <td>未读</td>
+                <td>{t('MyTextScreen.Unread')}</td>
                 <td>Daily Bonus!</td>
                 <td>2020-08-19 00:25:08</td>
                 <td>
@@ -53,7 +55,7 @@ const MyTextScreen = () => {
                 </td>
               </tr>
               <tr>
-                <td>未读</td>
+                <td>{t('MyTextScreen.Unread')}</td>
                 <td>Daily Bonus!</td>
                 <td>2020-08-19 00:25:08</td>
                 <td>
@@ -61,7 +63,7 @@ const MyTextScreen = () => {
                 </td>
               </tr>
               <tr>
-                <td>未读</td>
+                <td>{t('MyTextScreen.Unread')}</td>
                 <td>Daily Bonus!</td>
                 <td>2020-08-19 00:25:08</td>
                 <td>
@@ -69,7 +71,7 @@ const MyTextScreen = () => {
                 </td>
               </tr>
               <tr>
-                <td>未读</td>
+                <td>{t('MyTextScreen.Unread')}</td>
                 <td>Daily Bonus!</td>
                 <td>2020-08-19 00:25:08</td>
                 <td>
@@ -77,7 +79,7 @@ const MyTextScreen = () => {
                 </td>
               </tr>
               <tr>
-                <td>未读</td>
+                <td>{t('MyTextScreen.Unread')}</td>
                 <td>Daily Bonus!</td>
                 <td>2020-08-19 00:25:08</td>
                 <td>
@@ -85,7 +87,7 @@ const MyTextScreen = () => {
                 </td>
               </tr>
               <tr className='readed'>
-                <td>已读</td>
+                <td>{t('MyTextScreen.Readed')}</td>
                 <td>Daily Bonus!</td>
                 <td>2020-08-19 00:25:08</td>
                 <td>
@@ -93,7 +95,7 @@ const MyTextScreen = () => {
                 </td>
               </tr>
               <tr className='readed'>
-                <td>已读</td>
+                <td>{t('MyTextScreen.Readed')}</td>
                 <td>Daily Bonus!</td>
                 <td>2020-08-19 00:25:08</td>
                 <td>
@@ -101,7 +103,7 @@ const MyTextScreen = () => {
                 </td>
               </tr>
               <tr className='readed'>
-                <td>已读</td>
+                <td>{t('MyTextScreen.Readed')}</td>
                 <td>Daily Bonus!</td>
                 <td>2020-08-19 00:25:08</td>
                 <td>
@@ -109,7 +111,7 @@ const MyTextScreen = () => {
                 </td>
               </tr>
               <tr className='readed'>
-                <td>已读</td>
+                <td>{t('MyTextScreen.Readed')}</td>
                 <td>Daily Bonus!</td>
                 <td>2020-08-19 00:25:08</td>
                 <td>

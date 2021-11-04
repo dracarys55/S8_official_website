@@ -1,47 +1,73 @@
 import React from 'react';
 import './MemberCenterpage.css';
+import { useTranslation } from 'react-i18next';
 
 const MyInfoScreen = () => {
+  const { t } = useTranslation();
   return (
     <div className='memberContent'>
       <div className='personalCenter_msg_myInfo minH900 '>
         <div className='a_d_title pt_0'>
-          <h2>个人资料</h2>
+          <h2>{t('MyInfoScreen.Title')}</h2>
         </div>
         <div className='myInfo_profile'>
           <div className='profile_item'>
-            <label>真实姓名 :</label>
-            <input id='name' type='text' placeholder='请输入真实姓名' />
+            <label>{t('MyInfoScreen.Profile_item_1')}</label>
+            <input
+              id='name'
+              type='text'
+              placeholder={t('MyInfoScreen.Profile_item_PH_1')}
+            />
           </div>
           <div className='profile_item'>
-            <label>电子邮箱 :</label>
-            <input id='mail' type='email' placeholder='选填' />
+            <label>{t('MyInfoScreen.Profile_item_2')}</label>
+            <input
+              id='mail'
+              type='email'
+              placeholder={t('MyInfoScreen.Profile_item_PH_2')}
+            />
           </div>
           <div className='profile_item'>
-            <label>生日 :</label>
-            <input id='datepicker' type='text' placeholder='dd/mm/yyyy' />
+            <label>{t('MyInfoScreen.Profile_item_3')}</label>
+            <input
+              id='datepicker'
+              type='text'
+              placeholder={t('MyInfoScreen.Profile_item_PH_3')}
+            />
           </div>
           <div className='profile_item'>
-            <label>Line ID :</label>
-            <input id='lineID' type='text' placeholder='Line ID' />
+            <label>{t('MyInfoScreen.Profile_item_4')}</label>
+            <input
+              id='lineID'
+              type='text'
+              placeholder={t('MyInfoScreen.Profile_item_PH_4')}
+            />
           </div>
           <div className='profile_item'>
-            <label>手机号码 :</label>
-            <input id='phone' type='number' placeholder='请输入手机号码' />
+            <label>{t('MyInfoScreen.Profile_item_5')}</label>
+            <input
+              id='phone'
+              type='number'
+              placeholder={t('MyInfoScreen.Profile_item_PH_5')}
+            />
           </div>
           <div className='profile_item'>
-            <label>Facebook :</label>
-            <input id='FBID' type='text' placeholder='请输入 Facebook ID' />
+            <label>{t('MyInfoScreen.Profile_item_6')}</label>
+            <input
+              id='FBID'
+              type='text'
+              placeholder={t('MyInfoScreen.Profile_item_PH_6')}
+            />
           </div>
         </div>
         <div className='profile_submit'>
           <a className='contentButton_1' href='/'>
-            保存
+            {t('MyInfoScreen.ContentButton_1')}
           </a>
         </div>
         <div className='bank_card_part'>
           <div className='a_d_title'>
-            <h2>银行卡资料</h2>
+            <h2> {t('MyInfoScreen.A_d_title')}</h2>
           </div>
           <div className='bank_card noBind'>
             <div className='bc_avatar'></div>

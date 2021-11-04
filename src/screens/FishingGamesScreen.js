@@ -12,6 +12,13 @@ import img_shark from './screensImages/img_shark.png';
 import img_turtle from './screensImages/img_turtle.png';
 
 const FishingGamesScreen = () => {
+  const moneyTreeID = '30300201';
+  const leeFishingID = '30300401';
+  const threeColorCros = '30300701';
+  const dragonHunt = '30300101';
+  const monkeyFishing = '30300601';
+  const frogFishing = '30300301';
+  const bigMonkeyFishing = '30300501';
   return (
     <div className='fish-game-wrapper'>
       <div className='content'>
@@ -32,7 +39,7 @@ const FishingGamesScreen = () => {
                   <li>
                     <a
                       className='game-logo'
-                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                      href={`https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=${moneyTreeID}&jumpType=1&lesheng=1`}
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -42,7 +49,7 @@ const FishingGamesScreen = () => {
                   <li>
                     <a
                       className='game-logo'
-                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                      href={`https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=${leeFishingID}&jumpType=1&lesheng=1`}
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -52,7 +59,7 @@ const FishingGamesScreen = () => {
                   <li>
                     <a
                       className='game-logo'
-                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                      href={`https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=${threeColorCros}&jumpType=1&lesheng=1`}
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -62,7 +69,7 @@ const FishingGamesScreen = () => {
                   <li>
                     <a
                       className='game-logo'
-                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                      href={`https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=${dragonHunt}&jumpType=1&lesheng=1`}
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -72,7 +79,9 @@ const FishingGamesScreen = () => {
                   <li>
                     <a
                       className='game-logo'
-                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                      href={`https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=${monkeyFishing}&jumpType=1&lesheng=1`}
+                      target='_blank'
+                      rel='noreferrer'
                     >
                       <img src={btn_game_05} alt='' />
                     </a>
@@ -80,7 +89,9 @@ const FishingGamesScreen = () => {
                   <li>
                     <a
                       className='game-logo'
-                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                      href={`https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=${frogFishing}&jumpType=1&lesheng=1`}
+                      target='_blank'
+                      rel='noreferrer'
                     >
                       <img src={btn_game_06} alt='' />
                     </a>
@@ -88,7 +99,9 @@ const FishingGamesScreen = () => {
                   <li>
                     <a
                       className='game-logo'
-                      href='https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=30300201&jumpType=1&lesheng=1'
+                      href={`https://fishcity1.hengwei-tech.com:5158/?AccountName=d41d8cd98f00b204e9800998ecf8427e&Token=9aeec672c14610bdfe85716bca3eaf50&UserType=0&SystemIconID=0&AgentID=100&Password=d41d8cd98f00b204e9800998ecf8427e&Viplevel=1&IsNickNameChange=1&NickName=pv35462&UserID=35462&Money=100&Lang=zh&GameID=${bigMonkeyFishing}&jumpType=1&lesheng=1`}
+                      target='_blank'
+                      rel='noreferrer'
                     >
                       <img src={btn_game_07} alt='' />
                     </a>

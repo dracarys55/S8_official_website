@@ -1,0 +1,314 @@
+{
+  "Header": {
+    "Home": "trang đầu",
+    "Electronic": "Trò chơi điện tử",
+    "Board": "Trò chơi trên bàn cờ",
+    "Fishing": "Trò chơi câu cá ",
+    "Lottery": "",
+    "Promotions": "Khuyến mại",
+    "Login": "Đăng nhập",
+    "Register": "Đăng ký",
+    "Bookmark": "sưu tầm"
+  },
+  "Activity": {
+    "Block_1": {
+      "Title": "Ưu đãi thành viên mới",
+      "Content": "Giảm giá nhiều hơn tại VIP"
+    },
+    "Block_2": {
+      "Title": "Giảm giá dành riêng cho trò chơi điện tử",
+      "Content": "Giảm giá 25% khi đặt cọc dành riêng cho trò chơi điện tử"
+    },
+    "Block_3": {
+      "Title": "Ưu đãi dành riêng cho video trực tiếp",
+      "Content": "Thành viên nhận được 30% tiền thưởng cho lần gửi tiền đầu tiên của họ"
+    },
+    "Block_utils": {
+      "Button": "kiểm tra các"
+    },
+    "TextSection": {
+      "Title": "Cực kỳ mịn trong tầm tay của bạn",
+      "Content_1": "APP gốc giải trí tích hợp đầu tiên trên thế giới, thể thao lớn, các sự kiện thể thao điện tử và giải trí trực tiếp, cờ vua và trò chơi bài,",
+      "Content_2": "cá cược xổ số, trò chơi điện tử và các hạng mục giải trí khác. Quét mã để tải về, trải nghiệm ngay trong lòng bàn tay"
+    },
+    "Pic_1": {
+      "Content_1": "Quét mã để tải xuống APP",
+      "Content_2": " iOS & Android"
+    },
+    "Pic_2": {
+      "Content_1": "Không cần tải xuống trực tiếp, hãy truy cập",
+      "Content_2": "http://127.0.0.1:8081/"
+    }
+  },
+  "Footer": {
+    "Title": "Tên miền dễ: www.S8.com",
+    "BankService": "Đề xuất khiếu",
+    "Advise": "dịch vụ ngân hàng",
+    "Bookmark": "thêm vào mục yêu"
+  },
+  "CardGameScreen": {
+    "HotGameTab": "trò chơi hàng đầu",
+    "CollectTab": "bộ sưu tập của tôi",
+    "LscardTab": "Le Sheng Chess",
+    "LsnnTab": "Le Sheng Niuniu"
+  },
+  "ActivityNews": {
+    "ActivityNews_1": {
+      "Title": "100% miễn phí cho khoản phí đầu tiên",
+      "ActivityContent": "Tặng 100% cho lần nạp đầu tiên",
+      "ActivityRules": {
+        "first": "Bất kỳ ai đăng ký trên nền tảng này cho lần nạp tiền đầu tiên từ 100 baht trở lên sẽ được giảm giá 100%",
+        "two": "Bạn có thể nhận được nhiều hơn trong 30 ngày",
+        "three": "Luồng cá cược không bao gồm các loại trò chơi như nhào lộn, Thủy hử, Lục sư tử may mắn, v.v.",
+        "four": "Mỗi người chơi có cùng phương thức thanh toán (cùng thẻ ghi nợ, thẻ tín dụng, tài khoản ngân hàng) và địa chỉ IP chỉ được hưởng ưu đãi một lần.",
+        "five": "Tất cả chiết khấu của công ty chúng tôi được thiết kế đặc biệt cho người chơi. Nếu bất kỳ nhóm hoặc cá nhân nào bị phát hiện yêu cầu tiền thưởng hoặc bất kỳ mối đe dọa nào một cách không trung thực, lạm dụng chiết khấu của công ty, v.v., công ty sẽ bảo lưu, đóng băng và hủy bỏ quyền của nhóm hoặc số dư tài khoản cá nhân., công ty bảo lưu quyền giải thích cuối cùng",
+        "six": "Giải thưởng sự kiện có thể được chia gấp đôi doanh thu"
+      }
+    },
+    "ActivityNews_2": {
+      "Title": "Nạp tiền quà tặng, chiết khấu lên đến 2%",
+      "ActivityContent": "hoạt động nạp quà",
+      "ActivityRules": {
+        "first": "Nạp tiền trong khu vực hoạt động nạp tiền và bạn có thể nhận được phần thưởng lên đến 2% số tiền nạp.",
+        "two": "Cược cần đạt doanh thu gấp đôi lần nạp thì mới được rút tiền, nếu không đạt doanh thu gấp đôi thì khi rút tiền thưởng quà tặng sẽ bị trừ.",
+        "three": "Ví dụ: nạp 100 baht tiền vàng nhận được 1 đồng tiền vàng, sau khi cược 100 baht tiền vàng thì không giới hạn số tiền rút, nếu cược không đạt 100 tệ, khi rút tiền sẽ bị trừ 1 baht.",
+        "four": "Luồng cá cược không bao gồm đặt cược vào các loại trò chơi như Hấp tấp, Thủy hử và Lục sư tử may mắn."
+      }
+    },
+    "ActivityNews_3": {
+      "Title": "Hoàn máu và giảm giá, cho than trong tuyết để giúp bạn trở lại",
+      "ActivityContent": "hoạt động hoàn máu",
+      "ActivityRules": {
+        "first": "Trong thời gian diễn ra sự kiện, các tài khoản bị lỗ từ 1.000 baht trở lên từ thứ Hai đến thứ Bảy có thể đăng ký hoàn tiền vào thứ Bảy tuần này",
+        "two": "Bạn có thể nhận được phí chuyển máu hoàn trả vào Chủ nhật",
+        "three": "Trùng IP, trùng thành viên, trùng tên rút số thẻ ngân hàng không được lặp lại, thành viên hay nhóm chơi game bất thường",
+        "four": "Để tránh sự khác biệt trong cách hiểu văn bản, quyền giải thích cuối cùng của sự kiện này thuộc về viên chức"
+      }
+    },
+    "ActivityNews_utils": {
+      "P_name": "100% miễn phí cho khoản",
+      "ActivityTime": "Thời gian : người chơi",
+      "ActivityObject": "hoạt động: Đối tượng hoạt động lâu dài : tất cả người chơi",
+      "ActivityContent": "Nội dung hoạt động : ",
+      "ActivityRules": "Nội quy hoạt động",
+      "Th_1": "Số tiền gửi đầu tiên",
+      "Th_2": "Cho đi tiền vàng mỗi ngày",
+      "Th_3": "Tiền vàng tích lũy",
+      "Th_4": "Yêu cầu rút tiền",
+      "HideButton": "kiểm tra các",
+      "ShowButton": "kiểm tra các"
+    }
+  },
+  "Widgets": {
+    "TcHead": "liên hệ chúng tôi",
+    "Customer": "dịch vụ trực tuyến",
+    "Advising": "Gợi ý",
+    "Download": "Tải xuống APP"
+  },
+  "LoginForm": {
+    "Title": "Đăng nhập an toàn thành viên",
+    "Account": "Tài khoản game",
+    "Password": "nhập mật khẩu",
+    "Submit": "Đăng nhập",
+    "ForgotPW": "quên mật khẩu",
+    "Flri": "Chưa có tài khoản ?",
+    "Register": "Đăng ký ngay",
+    "Divide": "Đăng nhập nhanh chóng thông"
+  },
+  "SignupForm": {
+    "Title": "Đăng ký",
+    "Account": "Số tài khoản: sự kết hợp của 6-12 chữ cái và số",
+    "Password": "Mật khẩu: sự kết hợp của 6-12 chữ cái và số",
+    "ConfirmPw": "Xác nhận mật khẩu: sự kết hợp của 6-12 chữ cái và số",
+    "Name": "Tên thật: Tên phải trùng với tên tài khoản ngân hàng nơi bạn gửi và rút tiền",
+    "ImgVerify": "Vui lòng nhập mã xác minh hình ảnh",
+    "Phone": "Số điện thoại liên hệ: Vui lòng điền số điện thoại di động của bạn",
+    "Validate": "Nhập mã xác minh điện thoại",
+    "Email": "E-mail: Vui lòng điền vào e-mail của bạn",
+    "Submit": "Đăng ký ngay",
+    "Rights": " Tôi trên 18 tuổi và mọi hoạt động trên trang web này không vi phạm pháp luật do quốc gia tôi điều chỉnh"
+  },
+  "CenterLeftMenu": {
+    "Center": "Trang chủ",
+    "Moneymanage": "Quản lý quỹ",
+    "Deposit": "Gửi tiền",
+    "Moneywithdrawal": "Rút tiền",
+    "Moneyrecord": "Truy vấn nhật ký thực tế",
+    "Myvipinfo": "Trung tâm",
+    "ForVip": "Khách VIP đặc biệt",
+    "Myinfo": "Thông tin cá nhân",
+    "Mytext": "Thông điệp của tôi",
+    "Mychangepassword": "Thay đổi mật khẩu của bạn",
+    "Agentpromote": "Trung tâm",
+    "AgentpromoteMoney": "Thúc đẩy kiếm tiền",
+    "Agentfeedback": "Bảng số tiền hoa hồng",
+    "Agentteach": "Quảng bá hướng dẫn"
+  },
+  "MemberCenter_utils": {
+    "Submit": "Gửi"
+  },
+  "CenterScreen": {
+    "Title": "Chi tiết tài khoản",
+    "BalanceTab": "Số dư",
+    "BetAmountTab": "Số tiền đặt cược",
+    "MyWallet": "Ví của tôi",
+    "A_d_title2": "Chức năng chung",
+    "OnlinePayment": "Thanh toán trực tuyến",
+    "FinanceRecord": "Hồ sơ vốn",
+    "ChangePassword": "Thay đổi mật khẩu của bạn",
+    "A_d_title": "Đăng thông tin",
+    "Announcement": {
+      "Title": "Nảy mỗi ngày",
+      "Content": "Xin chúc mừng, bạn đã giành được 0,50 tiền thưởng, di chuyển trên và giành chiến thắng nhiều hơn nữa!"
+    }
+  },
+  "MoneyManageScreen": {
+    "PaymentMethod": "Phương thức thanh toán:",
+    "OnlinePayment": "Thanh toán trực tuyến",
+    "AliPay": "Alipay",
+    "PaymentChannel": "Phương thức thanh toán:",
+    "OnlineBankpayment": "Chuyển khoản ngân hàng UnionPay",
+    "PayeeBank": "Chuyển tiền vào ngân hàng",
+    "Copy": "Sao",
+    "Pb_reminder1": "Vui lòng chọn thông tin đăng nhập chuyển tiền bạn muốn tải lên.",
+    "SavingAmount": "Số tiền gửi:",
+    "SavingAmountPlaceHolder": "฿ Số tiền nạp tối thiểu là 50 nhân dân tệ",
+    "Pb_reminder2": "Vui lòng nạp ít nhất 10 nhân dân tệ.",
+    "PayVerify": "Tải lên voucher chuyển tiền:",
+    "D_bc_info_title": "Lời khuyên ấm áp:",
+    "D_bc_info_li_1": "Các ngân hàng được liệt kê ở trên là các ngân hàng hỗ trợ thanh toán trực tuyến, vui lòng chọn chuyển tiền của bạn.",
+    "D_bc_info_li_2": "Điền vào phần",
+    "D_bc_info_li_3": "Sau khi gửi tiền thành công, bạn phải đặt cược chính xác gấp đôi để rút tiền (rút tiền và chống rửa tiền)."
+  },
+  "MoneyWithdrawlScreen": {
+    "Title": "Rút tiền:",
+    "AvailableMoney": "Số tiền cần thiết:",
+    "Coin": "Nhân dân tệ",
+    "WithdrawlTo": "Rút tiền đến:",
+    "W_d_amount": "Số tiền rút:",
+    "W_d_amount_placeholder": "Vui lòng nhập số tiền rút.",
+    "W_d_password": "Mật khẩu rút tiền:",
+    "W_d_password_placeholder": "Vui lòng nhập mật khẩu rút tiền gồm sáu chữ số."
+  },
+  "MoneyRecordScreen": {
+    "Sr_tab_title_1": "Yêu cầu tiền gửi",
+    "Sr_tab_title_2": "Yêu cầu rút tiền",
+    "Sr_tab_title_3": "Hỏi về tiền thưởng",
+    "Sr_tab_title_4": "Truy vấn khác",
+    "Sr_tab_title_5": "Truy vấn nhật ký chuyển đổi hạn ngạch",
+    "Sr_tab_title_6": "Yêu cầu cá cược",
+    "From": "Từ:",
+    "To": "Đến rồi",
+    "sr_er_Table_1": "Thời gian",
+    "sr_er_Table_2": "Số tiền",
+    "sr_er_Table_3": "Làm thế nào để gửi tiền",
+    "sr_er_Table_4": "Trạng thái",
+    "sr_er_Table_5": "Lưu ý:"
+  },
+  "MyVipInfoScreen": {
+    "Title": "Vip của tôi",
+    "NowSavingNum": "Tiền gửi hiện tại:",
+    "NowBetNum": "Cược hiện tại:",
+    "MyVIP_note": "Cấp độ VIP của tôi: 1 VIP Bạn phải gửi 10.000 và 100.000 luồng để nâng cấp lên VIP 2.",
+    "A_d_title_1": "đặc quyền của tôi",
+    "MyPrivilege_1": "Trợ cấp thăng tiến",
+    "MyPrivilege_2": "Gửi tiền hàng ngày",
+    "MyPrivilege_3": "Gửi tiền hàng tuần",
+    "MyPrivilege_4": "Gửi tiền hàng tháng",
+    "MyPrivilege_5": "Một món quà sinh nhật",
+    "MyPrivilege_6": "Tiền gửi hàng năm",
+    "A_d_title_2": "Quy tắc khuyến mãi VIP",
+    "Vip_leftCol": "Cấp ĐỘ VIP 7",
+    "Vip_leftCol_deposit": "Tiền gửi (฿)",
+    "Vip_rightCol": "Điều khoản khuyến mãi VIP7",
+    "Vip_rightCol_LVcondition_1": "Được thăng chức lên tiền thưởng",
+    "Vip_rightCol_LVcondition_2": "Số tiền gửi",
+    "Vip_rightCol_LVcondition_3": "Số tiền đặt cược",
+    "Vip_rightCol_LVcondition_4": "Điều kiện thăng tiến",
+    "Vip_rightCol_LVcontent_4": "Bất kỳ 1 đạt tiêu chuẩn"
+  },
+  "MyInfoScreen": {
+    "Title": "Thông tin cá nhân",
+    "Profile_item_1": "Tên thật:",
+    "Profile_item_2": "Email:",
+    "Profile_item_3": "Ngày sinh:",
+    "Profile_item_4": "ID đường dây:",
+    "Profile_item_5": "Số điện thoại di động:",
+    "Profile_item_6": "Facebook:",
+    "Profile_item_PH_1": "Vui lòng nhập tên thật của bạn.",
+    "Profile_item_PH_2": "Chọn Điền.",
+    "Profile_item_PH_3": "DD/mm/bước dài ",
+    "Profile_item_PH_4": "ID danh sách",
+    "Profile_item_PH_5": "Vui lòng nhập số điện thoại di động của bạn.",
+    "Profile_item_PH_6": "Vui lòng nhập mã facebook.",
+    "ContentButton_1": "Lưu",
+    "A_d_title": "Thông tin thẻ ngân hàng"
+  },
+  "MyTextScreen": {
+    "Sr_tab_title_1": "Hộp thư đến",
+    "Sr_tab_title_2": "Đề xuất khiếu nại",
+    "TableStyle1_1": "Trạng thái",
+    "TableStyle1_2": "Chủ đề",
+    "TableStyle1_3": "Thời gian",
+    "TableStyle1_4": "Hành động",
+    "Unread": "Chưa đọc",
+    "Readed": "Đã đọc"
+  },
+  "MyChangePasswordScreen": {
+    "Sr_tab_title_1": "Mật khẩu đăng nhập",
+    "Sr_tab_title_2": "Mật khẩu rút tiền",
+    "PwEdit_item_1": "Mật khẩu đăng nhập cũ:",
+    "PwEdit_item_2": "Mật khẩu đăng nhập mới:",
+    "PwEdit_item_3": "Lặp lại mật khẩu mới:",
+    "PwEdit_item_PH_1": "Vui lòng nhập mật khẩu đăng nhập cũ.",
+    "PwEdit_item_PH_2": "Nhập mật khẩu đăng nhập mới với 6 chữ số.",
+    "PwEdit_item_PH_3": "Vui lòng xác nhận mật khẩu đăng nhập mới.",
+    "Icon_reminder_1": "Mật khẩu đăng nhập cũ không hợp lệ.",
+    "Icon_reminder_2": "Nhập mật khẩu mới cho cả hai là khác nhau.",
+    "ContentButton_1": "Xác nhận sửa chữa"
+  },
+  "AgentPromoteScreen": {
+    "Sr_tab_title_1": "Quảng cáo của tôi",
+    "Sr_tab_title_2": "Truy vấn trực tiếp",
+    "My_commission": "Hoa hồng của tôi (฿)",
+    "Today_commission": "Ước tính hoa hồng hôm nay (฿)",
+    "Commissions_list_1": "Tổng hoa hồng lịch sử:",
+    "Commissions_list_2": "Hoa hồng có thể rút ra:",
+    "Commissions_list_3": "Mã của tôi:",
+    "Commissions_list_4": "Số lượng đội",
+    "Commissions_list_5": "Màn trình diễn của nhóm hôm nay:",
+    "Commissions_list_6": "Số lượng cấp dưới trực tiếp",
+    "Commissions_list_7": "Hiệu suất tự doanh hôm nay:",
+    "Commissions_list_span": "(Mới)",
+    "GetRecorBtn": "Nhận hồ sơ",
+    "ContentButton_1": "Kiếm được hoa hồng",
+    "Copy": "Sao chép"
+  },
+  "AgentFeedbackScreen": {
+    "Sr_tab_title_1": "Du lịch điện tử",
+    "Sr_tab_title_2": "Trò chơi thực tế",
+    "Sr_tab_title_3": "Trò chơi thể thao",
+    "Sr_tab_title_4": "Trò chơi câu cá",
+    "Sr_tab_title_5": "Trò chơi xổ số",
+    "TableStyle_1": "Cấp độ đại lý",
+    "TableStyle_2": "Hiệu suất nhóm / ngày",
+    "TableStyle_3": "Hạn ngạch chống việc làm",
+    "TableStyle_content_3": "chống lại người hầu mỗi $ 10,000."
+  },
+  "MemberCenterUserInfo": {
+    "Welcome": "Chào mừng bạn đến,",
+    "Name": "Kim",
+    "VipTag": "VIP1",
+    "EditPW": "Thay đổi mật khẩu của bạn",
+    "P_bottom_1": "Mức độ bảo mật tài khoản",
+    "P_bottom_2": "Thấp",
+    "MoneyCount": "Ví",
+    "MoneyFunc_1": "Gửi tiền",
+    "MoneyFunc_2": "Rút tiền",
+    "MoneyFunc_3": "Hồ sơ",
+    "VipLevel": "Cấp độ VIP của thành viên",
+    "VipDesc_1": "Vẫn còn cần thiết",
+    "VipDesc_2": "tiền gửi và",
+    "VipDesc_3": "Số tiền đặt cược"
+  }
+}

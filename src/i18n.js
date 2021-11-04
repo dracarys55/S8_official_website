@@ -2,6 +2,8 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import en from './assets/i18n/en.json';
 import zh from './assets/i18n/zh.json';
+import th from './assets/i18n/th.json';
+import vi from './assets/i18n/vi.json';
 
 const resources = {
   en: {
@@ -9,6 +11,12 @@ const resources = {
   },
   zh: {
     translation: zh,
+  },
+  th: {
+    translation: th,
+  },
+  vi: {
+    translation: vi,
   },
 };
 
