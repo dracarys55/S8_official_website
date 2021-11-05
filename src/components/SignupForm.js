@@ -13,6 +13,7 @@ const SignupForm = ({ handleSignupClose, signupshow }) => {
         show={signupshow}
         onHide={handleSignupClose}
         dialogClassName='loginBox'
+        animation={false}
       >
         <Modal.Title className='popHead'>
           {t('SignupForm.Title')}
@@ -55,18 +56,22 @@ const SignupForm = ({ handleSignupClose, signupshow }) => {
             {/* <div class='errorMsg'></div> */}
             {/* <div class='sendAgain'></div> */}
           </div>
-          <div class='inputGroup validate require'>
+          <div className='inputGroup validate require'>
             <input type='text' placeholder={t('SignupForm.Validate')} />
             {/* <div class='errorMsg'></div> */}
           </div>
-          <div class='inputGroup email require'>
+          <div className='inputGroup email require'>
             <input type='email' placeholder={t('SignupForm.Email')} />
-            <div class='errorMsg'></div>
+            <div className='errorMsg'></div>
           </div>
 
-          <input class='submit' type='submit' value={t('SignupForm.Submit')} />
-          <div class='inputOther'>
-            <label for='rights'>
+          <input
+            className='submit'
+            type='submit'
+            value={t('SignupForm.Submit')}
+          />
+          <div className='inputOther'>
+            <label htmlFor='rights'>
               <input type='checkbox' id='rights' />
               {t('SignupForm.Rights')}
             </label>

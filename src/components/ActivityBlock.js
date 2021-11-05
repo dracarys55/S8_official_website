@@ -1,6 +1,7 @@
 import React from 'react';
 import './ActivityBlock.css';
 import { useTranslation } from 'react-i18next';
+import { LinkContainer } from 'react-router-bootstrap';
 
 const ActivityBlock = ({ backgroundImage, title, content }) => {
   const { t } = useTranslation();
@@ -13,9 +14,11 @@ const ActivityBlock = ({ backgroundImage, title, content }) => {
         <div className='content'>
           <h3 className='activity-block'>{title}</h3>
           <p>{content}</p>
-          <a className='detail-btn' href='/activities'>
-            {t('Activity.Block_utils.Button')}
-          </a>
+          <LinkContainer to='/activities'>
+            <a className='detail-btn' href='/'>
+              {t('Activity.Block_utils.Button')}
+            </a>
+          </LinkContainer>
         </div>
       </div>
     </div>

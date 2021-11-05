@@ -10,6 +10,7 @@ const CenterLeftMenu = () => {
   const [act_2, setAct_2] = useState(false);
   const [act_3, setAct_3] = useState(false);
   const [act_4, setAct_4] = useState(false);
+
   return (
     <ul className='leftMenu'>
       <li

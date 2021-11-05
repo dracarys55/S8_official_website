@@ -16,7 +16,7 @@ const CardGamesScreen = () => {
       <div className='CardGameBg'>
         <div className='container'>
           <div className='part1'>
-            <ui className='p1-tab'>
+            <ul className='p1-tab'>
               <li
                 className={`hotGameTab ${part_1_off ? 'off' : ''}`}
                 onClick={() => setPart_1_Off(false)}
@@ -31,7 +31,7 @@ const CardGamesScreen = () => {
                 <img src={collectTab} alt='collectTab' />
                 <h2>{t('CardGameScreen.CollectTab')}</h2>
               </li>
-            </ui>
+            </ul>
             <ul className='tabContainer'>
               <li className='act'></li>
               <li id='collect'></li>
@@ -43,7 +43,7 @@ const CardGamesScreen = () => {
           </div>
           {/* part2 */}
           <div className='part2'>
-            <ui className='p2-tab'>
+            <ul className='p2-tab'>
               <li
                 className={`lscardTab ${part_2_off ? 'off' : ''}`}
                 onClick={() => setPart_2_Off(false)}
@@ -58,7 +58,7 @@ const CardGamesScreen = () => {
                 <img src={cow} alt='' />
                 <h2>{t('CardGameScreen.LsnnTab')}</h2>
               </li>
-            </ui>
+            </ul>
             <ul className='tabContainer'>
               <li className='lscard'></li>
               <li id='lsnn' className='act'></li>

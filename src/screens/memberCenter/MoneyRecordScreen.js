@@ -44,7 +44,7 @@ const MoneyRecordScreen = () => {
             name='to'
             placeholder='dd/mm/yyyy'
           />
-          <a class='contentButton_1' href='/'>
+          <a className='contentButton_1' href='/'>
             {t('MemberCenter_utils.Submit')}
           </a>
           <table className='sr_er_Table'>

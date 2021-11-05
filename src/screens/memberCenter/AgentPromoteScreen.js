@@ -6,10 +6,10 @@ const AgentPromoteScreen = () => {
   const { t } = useTranslation();
   return (
     <div className='memberContent'>
-      <div class='agent_myPromote minH900 hide'>
-        <div class='sr_tab'>
-          <ul class='sr_tab_title'>
-            <li class='on' id='myPromote'>
+      <div className='agent_myPromote minH900 hide'>
+        <div className='sr_tab'>
+          <ul className='sr_tab_title'>
+            <li className='on' id='myPromote'>
               <h2>{t('AgentPromoteScreen.Sr_tab_title_1')}</h2>
             </li>
             <li id='CS'>
@@ -17,68 +17,68 @@ const AgentPromoteScreen = () => {
             </li>
           </ul>
         </div>
-        <div class='commissions'>
-          <div class='my_commission'>
+        <div className='commissions'>
+          <div className='my_commission'>
             <h3>{t('AgentPromoteScreen.My_commission')}</h3>
             <h1>99,999</h1>
           </div>
-          <div class='today_commission'>
+          <div className='today_commission'>
             <h3>{t('AgentPromoteScreen.Today_commission')}</h3>
             <h1>99,999</h1>
           </div>
         </div>
-        <div class='commissions_list'>
-          <div class='c_list_col'>
+        <div className='commissions_list'>
+          <div className='c_list_col'>
             <h3>{t('AgentPromoteScreen.Commissions_list_1')}</h3>
             <p>1.46</p>
           </div>
-          <div class='c_list_col'>
+          <div className='c_list_col'>
             <h3>{t('AgentPromoteScreen.Commissions_list_2')}</h3>
             <p>0</p>
-            <a class='getRecorBtn flri' href='/'>
+            <a className='getRecorBtn flri' href='/'>
               {t('AgentPromoteScreen.GetRecorBtn')}
             </a>
           </div>
-          <div class='c_list_col'>
+          <div className='c_list_col'>
             <h3>{t('AgentPromoteScreen.Commissions_list_3')}</h3>
             <p>472727</p>
           </div>
-          <div class='c_list_col'>
+          <div className='c_list_col'>
             <h3>
               {t('AgentPromoteScreen.Commissions_list_4')}
               <span>{t('AgentPromoteScreen.Commissions_list_span')}</span>:
             </h3>
             <p>5</p>
           </div>
-          <div class='c_list_col'>
+          <div className='c_list_col'>
             <h3>{t('AgentPromoteScreen.Commissions_list_5')}</h3>
             <p>888</p>
           </div>
-          <div class='c_list_col'>
+          <div className='c_list_col'>
             <h3>
               {t('AgentPromoteScreen.Commissions_list_6')}
               <span>{t('AgentPromoteScreen.Commissions_list_span')}</span>:
             </h3>
             <p>88</p>
           </div>
-          <div class='c_list_col'>
+          <div className='c_list_col'>
             <h3>{t('AgentPromoteScreen.Commissions_list_7')}</h3>
             <p>472727</p>
           </div>
         </div>
-        <div class='get_commission'>
-          <a class='contentButton_1' href='/'>
+        <div className='get_commission'>
+          <a className='contentButton_1' href='/'>
             {t('AgentPromoteScreen.ContentButton_1')}
           </a>
         </div>
-        <div class='get_link'>
-          <div class='c_qrcode'>
+        <div className='get_link'>
+          <div className='c_qrcode'>
             <img src='img/member/c_qrcode.png' alt='' />
           </div>
-          <div class='c_link'>
+          <div className='c_link'>
             <p>https//s8.com/#/register?invitecode=472727</p>
           </div>
-          <a class='contentButton_1 short' href='/'>
+          <a className='contentButton_1 short' href='/'>
             {t('AgentPromoteScreen.Copy')}
           </a>
         </div>

@@ -201,6 +201,10 @@ a.register:hover {
   transform: translate(-50%, -50%);
 }
 .socialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding-top: 20px;
   margin: 0 -10px;
@@ -208,9 +212,32 @@ a.register:hover {
 }
 .socialLinks a {
   display: inline-block;
-  width: 45%;
-  margin: 5px 10px;
+  width: 43%;
+  margin: 0px 10px;
 }
 .socialLinks a img {
   width: 100%;
+}
+.facebookLogin {
+  display: inline-block;
+  width: 180px;
+  height: 51px;
+  background-size: cover;
+  border-radius: 9% !important;
+  background-image: url(./componentsImages/FbBtn.png);
+  margin-top: 4px;
+  transition: all ease 0.3s;
+}
+.facebookLogin:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 1710px) {
+  .socialLinks a {
+    width: 180px;
+    height: 51px;
+  }
+  .facebookLogin {
+    margin-top: 10px;
+  }
 }

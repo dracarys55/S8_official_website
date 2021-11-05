@@ -1,33 +1,50 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Modal } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
-/* import FacebookLogin from 'react-facebook-login'; */
+import { LinkContainer } from 'react-router-bootstrap';
+import FacebookLogin from 'react-facebook-login';
 import './LoginForm.css';
 
 import close_w from './componentsImages/close_w.svg';
-import FbBtn from './componentsImages/FbBtn.png';
+/* import FbBtn from './componentsImages/FbBtn.png'; */
 import LineBtn from './componentsImages/LineBtn.png';
 
 const LoginForm = ({ handleClose, show, handleShow, handleSubmitShow }) => {
+  const clientId = '1656221321';
+  const redirectUrl = 'http://localhost:5158/redirect.html';
+  const url =
+    'https://access.line.me/oauth2/v2.1/authorize?response_type=code&client_id=' +
+    clientId +
+    '&redirect_uri=' +
+    redirectUrl +
+    '&state=line&scope=profile%20openid%20email&nonce=09876xyz';
   const { t } = useTranslation();
-  /* const [login, setLogin] = useState(false);
-  const [data, setData] = useState({});
-  const [picture, setPicture] = useState('');
+  /* const [data, setData] = useState({}); */
+  /*  const [login, setLogin] = useState(false);
+  const [picture, setPicture] = useState(''); */
 
   const responseFacebook = (response) => {
-    console.log(response);
-    setData(response);
-    setPicture(response.picture.data.url);
+    console.log(response, 'success');
+    /* setData(response); */
+    /* setPicture(response.picture.data.url);
     if (response.accessToken) {
       setLogin(true);
     } else {
       setLogin(false);
-    }
+    }  */
+  };
+  /*  const responseLine = (response) => {
+    console.log(response, 'success');
   }; */
 
   return (
     <div>
-      <Modal show={show} onHide={handleClose} dialogClassName='loginBox'>
+      <Modal
+        show={show}
+        onHide={handleClose}
+        dialogClassName='loginBox'
+        animation={false}
+      >
         <Modal.Title className='popHead'>
           {t('LoginForm.Title')}
           <img src={close_w} alt='' className='close' onClick={handleClose} />
@@ -49,11 +66,10 @@ const LoginForm = ({ handleClose, show, handleShow, handleSubmitShow }) => {
           <a href='/member/center'>
             <input
               className='submit'
-              type='submit'
+              type='button'
               value={t('LoginForm.Submit')}
             />
           </a>
-
           <div className='inputOther'>
             <div className='flle'>
               <a className='forgotPW' href='/'>
@@ -67,25 +83,25 @@ const LoginForm = ({ handleClose, show, handleShow, handleSubmitShow }) => {
               </a>
             </div>
           </div>
-          <div class='divide'>
+          <div className='divide'>
             <hr />
             <p>{t('LoginForm.Divide')}</p>
           </div>
-          <div class='socialLinks'>
-            <a href='/'>
+          <div className='socialLinks'>
+            {/* <a href='/'>
               <img class='close' src={FbBtn} alt='' />
-            </a>
-            {/* <FacebookLogin
-              appId='1027953054670202'
+            </a> */}
+            <FacebookLogin
+              appId='143911454488249'
               autoLoad={false}
               fields='name,email,picture'
               scope='public_profile'
               callback={responseFacebook}
-              icon='fa-facebook'
-            /> */}
-
-            <a href='/'>
-              <img class='close' src={LineBtn} alt='' />
+              cssClass='facebookLogin'
+              textButton=''
+            />
+            <a href={url} target='_blank' rel='noreferrer'>
+              <img className='close' src={LineBtn} alt='' />
             </a>
           </div>
         </div>
