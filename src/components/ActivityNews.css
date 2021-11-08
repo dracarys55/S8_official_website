@@ -245,6 +245,7 @@ table {
   line-height: 1.6;
   padding: 10px 20px 0 20px;
   list-style-type: decimal;
+  list-style-position: inside;
 }
 
 .bottom_btn {

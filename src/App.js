@@ -10,6 +10,7 @@ import ActivityScreen from './screens/ActivityScreen';
 import MemberCenterScreen from './screens/memberCenter/MemberCenterScreen';
 import FishingGamesScreen from './screens/FishingGamesScreen';
 import CardGamesScreen from './screens/CardGamesScreen';
+import HandleError from './components/HandleError';
 
 const App = () => {
   const [show, setShow] = useState(false);
@@ -42,6 +43,7 @@ const App = () => {
           <Route path='/activities' component={ActivityScreen} />
           <Route path='/member/' component={MemberCenterScreen} />
           {/*  <Route path='/member/centerpage' component={Centerpage} /> */}
+          <Route component={HandleError} />
         </Switch>
         <Footer />
       </Router>

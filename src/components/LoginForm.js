@@ -63,13 +63,14 @@ const LoginForm = ({ handleClose, show, handleShow, handleSubmitShow }) => {
             <input type='password' placeholder={t('LoginForm.Password')} />
             {/*  <div class='errorMsg'>密码有误！</div> */}
           </div>
-          <a href='/member/center'>
+          <LinkContainer to='/member/center'>
             <input
               className='submit'
               type='button'
               value={t('LoginForm.Submit')}
+              onClick={handleClose}
             />
-          </a>
+          </LinkContainer>
           <div className='inputOther'>
             <div className='flle'>
               <a className='forgotPW' href='/'>

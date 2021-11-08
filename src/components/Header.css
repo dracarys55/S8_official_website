@@ -87,12 +87,12 @@ nav.navbar-area2::after {
     #fbdf93 100%
   );
 }
-
-.collapsing {
+/* 會影響摺疊選單的順暢度 ，故拿掉 */
+/* .collapsing {
   width: 0 !important;
   transition-property: width !important;
   height: 100% !important;
-}
+} */
 .navbar-light .navbar-toggler-icon {
   background-image: url(./componentsImages/m_icon.svg);
 }

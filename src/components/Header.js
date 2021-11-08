@@ -108,8 +108,8 @@ const Header = ({ handleShow, handleSignupShow }) => {
               <img src={logo} alt='' />
             </Navbar.Brand>
           </LinkContainer>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse id='basic-navbar-nav'>
+          <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+          <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='ms-auto '>
               <LinkContainer to='/'>
                 <Nav.Link className='m-3 navbar-item'>
