@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './MemberCenterpage.css';
 import BalanceTable from '../../components/memberCenter/BalanceTable';
 
 const CenterScreen = () => {
   const { t } = useTranslation();
+  const [change, setChange] = useState(false);
+  const switchTab = () => {
+    setChange(!change);
+  };
   return (
     <div className='memberContent'>
       <div className='account_detail'>
@@ -13,15 +17,21 @@ const CenterScreen = () => {
         </div>
         <div className='a_d_part1'>
           <ul className='tab_title'>
-            <li className='balanceTab'>
+            <li
+              className={`balanceTab ${change ? 'off' : ''}`}
+              onClick={() => switchTab()}
+            >
               <h2>{t('CenterScreen.BalanceTab')}</h2>
             </li>
-            <li className='betAmountTab off'>
+            <li
+              className={`balanceTab ${change ? '' : 'off'}`}
+              onClick={() => switchTab()}
+            >
               <h2>{t('CenterScreen.BetAmountTab')}</h2>
             </li>
           </ul>
-          <ul className='tab_container'>
-            <li className='act'>
+          <ul className='tab_container '>
+            <li className={change ? '' : 'act'}>
               <div className='myWallet'>
                 {t('CenterScreen.MyWallet')}
                 <span>5.98</span>
@@ -68,6 +78,29 @@ const CenterScreen = () => {
                 title_3={'TC SEA Lotto'}
                 title_4={'XJ SPORTS'}
               />
+            </li>
+            <li id='betAmount' className={change ? 'act' : ''}>
+              <div class='commission '>
+                今日返佣<span>0元</span>
+                <p>预估反佣与实际反佣有部分差额，最终以实际反佣为准</p>
+              </div>
+              <div class='commissionContent'>
+                <table class='balanceTable'>
+                  <tbody>
+                    <tr>
+                      <td>PP GAMES</td>
+                      <td class='amount'>0.00฿</td>
+                      <td>NET GAMES</td>
+                      <td class='amount'>0.00฿</td>
+                      <td>TC SEA Lotto</td>
+                      <td class='amount'>0.00฿</td>
+                      <td>XJ SPORTS</td>
+                      <td class='amount2'>0.00฿</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>暂无数据</p>
+              </div>
             </li>
           </ul>
         </div>

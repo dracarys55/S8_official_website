@@ -68,7 +68,9 @@ const MoneyManageScreen = () => {
             </span>
           </div>
           <div className='upload'>
-            <label for='payVerify'>{t('MoneyManageScreen.PayVerify')}</label>
+            <label htmlFor='payVerify'>
+              {t('MoneyManageScreen.PayVerify')}
+            </label>
             <div className='uploadBg'>
               {/* <img id='payVerifyImg' /> */}
               <div className='uploadBox'>

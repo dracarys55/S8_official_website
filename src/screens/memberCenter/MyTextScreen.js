@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './MemberCenterpage.css';
 
@@ -6,20 +6,35 @@ import setting from '../screensImages/member/setting.png';
 
 const MyTextScreen = () => {
   const { t } = useTranslation();
+  const [change, setChange] = useState(true);
   return (
     <div className='memberContent'>
-      <div className='personalCenter_myMsg_mail minH900 hide'>
-        <div className='sr_tab'>
-          <ul className='sr_tab_title'>
-            <li className='on' id='myMsg_mail'>
-              <h2>{t('MyTextScreen.Sr_tab_title_1')}</h2>
-            </li>
-            <li id='myMsg_suggest'>
-              <h2>{t('MyTextScreen.Sr_tab_title_2')}</h2>
-            </li>
-          </ul>
-        </div>
-        <div className='tableStyle1'>
+      <div className='sr_tab'>
+        <ul className='sr_tab_title'>
+          <li
+            className={change ? 'on' : ''}
+            id='myMsg_mail'
+            onClick={() => {
+              setChange(true);
+            }}
+          >
+            <h2>{t('MyTextScreen.Sr_tab_title_1')}</h2>
+          </li>
+          <li
+            className={change ? '' : 'on'}
+            id='myMsg_suggest'
+            onClick={() => {
+              setChange(false);
+            }}
+          >
+            <h2>{t('MyTextScreen.Sr_tab_title_2')}</h2>
+          </li>
+        </ul>
+      </div>
+      <div
+        className={`personalCenter_myMsg_mail minH900 ${change ? '' : 'hide'}`}
+      >
+        <div className='tableStyle1 '>
           <table>
             <thead>
               <tr>
@@ -130,6 +145,19 @@ const MyTextScreen = () => {
             <span></span>
           </div>
         </div>
+      </div>
+      <div class={`suggest ${change ? 'hide' : ''}`}>
+        <p>內容 :</p>
+        <textarea
+          id='suggestion'
+          placeholder='内容不少于5个字，不大于1000个字'
+          name=''
+          rows='4'
+          cols='50'
+        ></textarea>
+        <a className='contentButton_1' href='/'>
+          提交
+        </a>
       </div>
     </div>
   );

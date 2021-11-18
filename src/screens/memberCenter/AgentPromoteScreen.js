@@ -1,22 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './MemberCenterpage.css';
 
 const AgentPromoteScreen = () => {
   const { t } = useTranslation();
+  const [change, setChange] = useState(true);
   return (
     <div className='memberContent'>
-      <div className='agent_myPromote minH900 hide'>
-        <div className='sr_tab'>
-          <ul className='sr_tab_title'>
-            <li className='on' id='myPromote'>
-              <h2>{t('AgentPromoteScreen.Sr_tab_title_1')}</h2>
-            </li>
-            <li id='CS'>
-              <h2>{t('AgentPromoteScreen.Sr_tab_title_2')}</h2>
-            </li>
-          </ul>
-        </div>
+      <div className='sr_tab'>
+        <ul className='sr_tab_title'>
+          <li
+            className={change ? 'on' : ''}
+            id='myPromote'
+            onClick={() => setChange(true)}
+          >
+            <h2>{t('AgentPromoteScreen.Sr_tab_title_1')}</h2>
+          </li>
+          <li
+            className={change ? '' : 'on'}
+            id='myPromote'
+            onClick={() => setChange(false)}
+          >
+            <h2>{t('AgentPromoteScreen.Sr_tab_title_2')}</h2>
+          </li>
+        </ul>
+      </div>
+      <div className={`agent_myPromote minH900 ${change ? '' : 'hide'}`}>
         <div className='commissions'>
           <div className='my_commission'>
             <h3>{t('AgentPromoteScreen.My_commission')}</h3>
@@ -82,86 +91,102 @@ const AgentPromoteScreen = () => {
             {t('AgentPromoteScreen.Copy')}
           </a>
         </div>
-        {/*   <div class='commissions_pop popUp' id='c_record'>
-          <div class='c_popBox'>
-            <div class='popHead'>
-              领取纪录
-              <a href=''>
-                <img class='close' src='img/close-w.svg' alt='' />
-              </a>
+      </div>
+      <div className={`agent_childSearch minH900 ${change ? 'hide' : ''}`}>
+        <div className='childSearch'>
+          <div className='cs_count'>
+            <div className='countRow'>
+              <p>直属人数:</p>
+              <p className='value'>99,988</p>
             </div>
-            <div class='popContent'>
-              <div class='days_tab'>
-                <ul>
-                  <li class='on'>今天</li>
-                  <li>近3天</li>
-                  <li>近7天</li>
-                  <li>近30天</li>
-                </ul>
-              </div>
-              <div class='c_table noRecord'>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>时间</th>
-                      <th>金额</th>
-                      <th>类型</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>2020/10/10</td>
-                      <td>654,695</td>
-                      <td>直属佣金</td>
-                    </tr>
-                    <tr>
-                      <td>2020/10/10</td>
-                      <td>654,695</td>
-                      <td>直属佣金</td>
-                    </tr>
-                    <tr>
-                      <td>2020/10/10</td>
-                      <td>654,695</td>
-                      <td>直属佣金</td>
-                    </tr>
-                    <tr>
-                      <td>2020/10/10</td>
-                      <td>654,695</td>
-                      <td>直属佣金</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+            <div className='countRow'>
+              <p>今日总流水:</p>
+              <p className='value'>88,899</p>
             </div>
           </div>
-        </div> */}
-
-        {/* <div class='commissions_pop popUp' id='c_getMoney'>
-          <div class='c_popBox'>
-            <div class='popHead'>
-              领取佣金
-              <a href=''>
-                <img class='close' src='img/close-w.svg' alt='' />
-              </a>
-            </div>
-            <div class='popContent'>
-              <div>
-                <h3>可领取佣金:</h3>
-                <h2>1.46</h2>
-              </div>
-              <div>
-                <h3>钱包馀额:</h3>
-                <h3>491.99</h3>
-              </div>
-              <p class='note'>
-                注:领取的佣金将会转到我的钱包馀额里
-                <a class='contentButton_1 txce' href='#'>
-                  领取
-                </a>
-              </p>
-            </div>
+          <div className='cs_search'>
+            <p>直属人数:</p>
+            <input type='text' placeholder='输入直属玩家帐号 ' />
+            <a className='contentButton_1 short' href='/'>
+              搜索
+            </a>
+            <a className='contentButton_2 short' href='/'>
+              重置
+            </a>
           </div>
-        </div> */}
+          <div className='tableStyle1'>
+            <table>
+              <thead>
+                <tr>
+                  <th>帐号</th>
+                  <th>今日流水</th>
+                  <th>总流水</th>
+                  <th>团队人数</th>
+                  <th>直属人数</th>
+                </tr>
+              </thead>
+              <tbody>
+                {/* 這裡可以再精簡 */}
+                <tr>
+                  <td>Kobe Bryant</td>
+                  <td>163,516</td>
+                  <td>654,654,164</td>
+                  <td>541</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>Stephen Curry</td>
+                  <td>163,516</td>
+                  <td>654,654,164</td>
+                  <td>541</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>Kobe Bryant</td>
+                  <td>163,516</td>
+                  <td>654,654,164</td>
+                  <td>541</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>Stephen Curry</td>
+                  <td>163,516</td>
+                  <td>654,654,164</td>
+                  <td>541</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>Kobe Bryant</td>
+                  <td>163,516</td>
+                  <td>654,654,164</td>
+                  <td>541</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>Stephen Curry</td>
+                  <td>163,516</td>
+                  <td>654,654,164</td>
+                  <td>541</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>Kobe Bryant</td>
+                  <td>163,516</td>
+                  <td>654,654,164</td>
+                  <td>541</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>Stephen Curry</td>
+                  <td>163,516</td>
+                  <td>654,654,164</td>
+                  <td>541</td>
+                  <td>23</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
   );

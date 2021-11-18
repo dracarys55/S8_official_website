@@ -1,31 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './MemberCenterpage.css';
 
 const AgentFeedbackScreen = () => {
   const { t } = useTranslation();
+  const [change, setChange] = useState(0);
+
+  const arr = [
+    t('AgentFeedbackScreen.Sr_tab_title_1'),
+    t('AgentFeedbackScreen.Sr_tab_title_2'),
+    t('AgentFeedbackScreen.Sr_tab_title_3'),
+    t('AgentFeedbackScreen.Sr_tab_title_4'),
+    t('AgentFeedbackScreen.Sr_tab_title_5'),
+  ];
+  const handleOnClick = (index) => {
+    setChange(index);
+  };
+  const toggleClasses = arr.map((element, index) => {
+    return (
+      <li
+        key={index}
+        className={change === index ? 'on' : ''}
+        onClick={() => handleOnClick(index)}
+      >
+        <h2>{element}</h2>
+      </li>
+    );
+  });
   return (
     <div className='memberContent'>
-      <div className='agent_feedback_list hide'>
+      <div className='agent_feedback_list '>
         <div className='sr_tab'>
-          <ul className='sr_tab_title'>
-            <li className='on'>
-              <h2>{t('AgentFeedbackScreen.Sr_tab_title_1')}</h2>
-            </li>
-            <li>
-              <h2>{t('AgentFeedbackScreen.Sr_tab_title_2')}</h2>
-            </li>
-            <li>
-              <h2>{t('AgentFeedbackScreen.Sr_tab_title_3')}</h2>
-            </li>
-            <li>
-              <h2>{t('AgentFeedbackScreen.Sr_tab_title_4')}</h2>
-            </li>
-            <li>
-              <h2>{t('AgentFeedbackScreen.Sr_tab_title_5')}</h2>
-            </li>
-          </ul>
-          <div className='tableStyle1'>
+          <ul className='sr_tab_title'>{toggleClasses}</ul>
+
+          <div className={`tableStyle1 ${change === 0 ? '' : 'hide'}`}>
             <table>
               <thead>
                 <tr>

@@ -16,7 +16,7 @@ const MoneyWithdrawlScreen = () => {
           {t('MoneyWithdrawlScreen.Coin')}
         </p>
         <p>
-          <label className='w_d_from' for='w_d_from'>
+          <label className='w_d_from' htmlFor='w_d_from'>
             {t('MoneyWithdrawlScreen.WithdrawlTo')}
           </label>
           <input
@@ -27,7 +27,9 @@ const MoneyWithdrawlScreen = () => {
           />
         </p>
         <p>
-          <label for='w_d_amount'>{t('MoneyWithdrawlScreen.W_d_amount')}</label>
+          <label htmlFor='w_d_amount'>
+            {t('MoneyWithdrawlScreen.W_d_amount')}
+          </label>
           <input
             id='w_d_amount'
             type='text'
@@ -36,7 +38,7 @@ const MoneyWithdrawlScreen = () => {
           />
         </p>
         <p>
-          <label for='w_d_password'>
+          <label htmlFor='w_d_password'>
             {t('MoneyWithdrawlScreen.W_d_password')}
           </label>
           <input
