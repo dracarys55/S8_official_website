@@ -152,6 +152,10 @@
     "BalanceTab": "Balance",
     "BetAmountTab": "Bet amount",
     "MyWallet": "My wallet ",
+    "TodayRebate": "Today rebate",
+    "Dollar": "yuan",
+    "RebateContent": "There is a partial difference between the estimated rebate",
+    "RebateNoData": "No data",
     "A_d_title2": "Common Functions",
     "OnlinePayment": "Online payments",
     "FinanceRecord": "Funding records",
@@ -252,7 +256,10 @@
     "TableStyle1_3": "Time",
     "TableStyle1_4": "Operate",
     "Unread": "Unread",
-    "Readed": "Readed"
+    "Readed": "Readed",
+    "Suggestions_title": "Content:",
+    "Suggestions_content": "The content is not less than 5 words and not more than 1000 words",
+    "Submit": "Submit"
   },
   "MyChangePasswordScreen": {
     "Sr_tab_title_1": "Login password",
@@ -265,7 +272,15 @@
     "PwEdit_item_PH_3": "Please confirm the new login password",
     "Icon_reminder_1": "The old login password is incorrect.",
     "Icon_reminder_2": "The new password is incorrect ",
-    "ContentButton_1": "Confirm"
+    "ContentButton_1": "Confirm",
+    "PwEdit_2_item_1": "Old withdrawal password:",
+    "PwEdit_2_item_2": "New withdrawal password:",
+    "PwEdit_2_item_3": "Repeat new password:",
+    "PwEdit_2_item_PH_1": "Please enter the old withdrawal password",
+    "PwEdit_2_item_PH_2": "Please enter the 6-digit new withdrawal password",
+    "PwEdit_2_item_PH_3": "Please confirm the new withdrawal password",
+    "Icon_2_reminder_1": "The old withdrawal password is incorrect.",
+    "Icon_2_reminder_2": "The new password entered twice is different."
   },
   "AgentPromoteScreen": {
     "Sr_tab_title_1": "My promotion",
@@ -282,7 +297,17 @@
     "Commissions_list_span": "(new)",
     "GetRecorBtn": "Records",
     "ContentButton_1": "Receive",
-    "Copy": "Copy"
+    "Copy": "Copy",
+    "DirectReports": "Direct reports:",
+    "TotalTurnover": "Total turnover:",
+    "Input": "Enter the account of direct players",
+    "Search": "Search",
+    "Reset": "Reset",
+    "Query_list_1": "Account",
+    "Query_list_2": "Total turnover",
+    "Query_list_3": "Teams",
+    "Query_list_4": "Teams reports",
+    "Query_list_5": "Direct reports"
   },
   "AgentFeedbackScreen": {
     "Sr_tab_title_1": "Electronic",

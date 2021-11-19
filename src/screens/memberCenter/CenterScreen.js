@@ -80,26 +80,27 @@ const CenterScreen = () => {
               />
             </li>
             <li id='betAmount' className={change ? 'act' : ''}>
-              <div class='commission '>
-                今日返佣<span>0元</span>
-                <p>预估反佣与实际反佣有部分差额，最终以实际反佣为准</p>
+              <div className='commission '>
+                {t('CenterScreen.TodayRebate')}
+                <span>0{t('CenterScreen.Dollar')}</span>
+                <p>{t('CenterScreen.RebateContent')}</p>
               </div>
-              <div class='commissionContent'>
-                <table class='balanceTable'>
+              <div className='commissionContent'>
+                <table className='balanceTable'>
                   <tbody>
                     <tr>
                       <td>PP GAMES</td>
-                      <td class='amount'>0.00฿</td>
+                      <td className='amount'>0.00฿</td>
                       <td>NET GAMES</td>
-                      <td class='amount'>0.00฿</td>
+                      <td className='amount'>0.00฿</td>
                       <td>TC SEA Lotto</td>
-                      <td class='amount'>0.00฿</td>
+                      <td className='amount'>0.00฿</td>
                       <td>XJ SPORTS</td>
-                      <td class='amount2'>0.00฿</td>
+                      <td className='amount2'>0.00฿</td>
                     </tr>
                   </tbody>
                 </table>
-                <p>暂无数据</p>
+                <p>{t('CenterScreen.RebateNoData')}</p>
               </div>
             </li>
           </ul>

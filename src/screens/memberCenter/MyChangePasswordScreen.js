@@ -79,43 +79,43 @@ const MyChangePasswordScreen = () => {
         }`}
       >
         <div className='pwEdit_item'>
-          <label>旧取款密码 :</label>
+          <label>{t('MyChangePasswordScreen.PwEdit_2_item_1')}</label>
           <input
             id='oldPw'
             type='password'
-            placeholder='请输入旧取款密码'
+            placeholder={t('MyChangePasswordScreen.PwEdit_2_item_PH_1')}
             name='oldPw'
           />
           <span className='pb_reminder2'>
             <img src='img/member/icon_reminder.svg' alt='' />
-            旧取款密码不正确。
+            {t('MyChangePasswordScreen.Icon_2_reminder_1')}
           </span>
         </div>
         <div className='pwEdit_item'>
-          <label>新取款密码 :</label>
+          <label>{t('MyChangePasswordScreen.PwEdit_2_item_2')}</label>
           <input
             id='newPw'
             type='password'
-            placeholder='请输入6位数字的新取款密码'
+            placeholder={t('MyChangePasswordScreen.PwEdit_2_item_PH_2')}
             name='newPw'
           />
         </div>
         <div className='pwEdit_item'>
-          <label>重复新密码 :</label>
+          <label>{t('MyChangePasswordScreen.PwEdit_2_item_3')}</label>
           <input
             id='oldPw'
             type='password'
-            placeholder='请确认新取款密码'
+            placeholder={t('MyChangePasswordScreen.PwEdit_2_item_PH_3')}
             name='oldPw'
           />
           <span className='pb_reminder2'>
             <img src='img/member/icon_reminder.svg' alt='' />
-            两次输入的新密码不相同。
+            {t('MyChangePasswordScreen.Icon_2_reminder_2')}
           </span>
         </div>
         <div className='submitPW'>
           <a className='contentButton_1' href='/'>
-            确认修改
+            {t('MyChangePasswordScreen.ContentButton_1')}
           </a>
         </div>
       </div>

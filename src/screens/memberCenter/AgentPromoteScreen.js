@@ -96,33 +96,33 @@ const AgentPromoteScreen = () => {
         <div className='childSearch'>
           <div className='cs_count'>
             <div className='countRow'>
-              <p>直属人数:</p>
+              <p>{t('AgentPromoteScreen.DirectReports')}</p>
               <p className='value'>99,988</p>
             </div>
             <div className='countRow'>
-              <p>今日总流水:</p>
+              <p>{t('AgentPromoteScreen.TotalTurnover')}</p>
               <p className='value'>88,899</p>
             </div>
           </div>
           <div className='cs_search'>
-            <p>直属人数:</p>
-            <input type='text' placeholder='输入直属玩家帐号 ' />
+            <p>{t('AgentPromoteScreen.DirectReports')}</p>
+            <input type='text' placeholder={t('AgentPromoteScreen.Input')} />
             <a className='contentButton_1 short' href='/'>
-              搜索
+              {t('AgentPromoteScreen.Search')}
             </a>
             <a className='contentButton_2 short' href='/'>
-              重置
+              {t('AgentPromoteScreen.Reset')}
             </a>
           </div>
           <div className='tableStyle1'>
             <table>
               <thead>
                 <tr>
-                  <th>帐号</th>
-                  <th>今日流水</th>
-                  <th>总流水</th>
-                  <th>团队人数</th>
-                  <th>直属人数</th>
+                  <th>{t('AgentPromoteScreen.Query_list_1')}</th>
+                  <th>{t('AgentPromoteScreen.Query_list_2')}</th>
+                  <th>{t('AgentPromoteScreen.Query_list_3')}</th>
+                  <th>{t('AgentPromoteScreen.Query_list_4')}</th>
+                  <th>{t('AgentPromoteScreen.Query_list_5')}</th>
                 </tr>
               </thead>
               <tbody>

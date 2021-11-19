@@ -146,17 +146,17 @@ const MyTextScreen = () => {
           </div>
         </div>
       </div>
-      <div class={`suggest ${change ? 'hide' : ''}`}>
-        <p>內容 :</p>
+      <div className={`suggest ${change ? 'hide' : ''}`}>
+        <p>{t('MyTextScreen.Suggestions_title')}</p>
         <textarea
           id='suggestion'
-          placeholder='内容不少于5个字，不大于1000个字'
+          placeholder={t('MyTextScreen.Suggestions_content')}
           name=''
           rows='4'
           cols='50'
         ></textarea>
         <a className='contentButton_1' href='/'>
-          提交
+          {t('MyTextScreen.Submit')}
         </a>
       </div>
     </div>

@@ -152,6 +152,10 @@
     "BalanceTab": "Số dư",
     "BetAmountTab": "Số tiền đặt cược",
     "MyWallet": "Ví của tôi",
+    "TodayRebate": "Hôm nay giảm giá",
+    "Dollar": "nhân",
+    "RebateContent": "Có sự khác biệt một phần giữa khoản",
+    "RebateNoData": "Không có dữ liệu",
     "A_d_title2": "Chức năng chung",
     "OnlinePayment": "Thanh toán trực tuyến",
     "FinanceRecord": "Hồ sơ vốn",
@@ -252,7 +256,10 @@
     "TableStyle1_3": "Thời gian",
     "TableStyle1_4": "Hành động",
     "Unread": "Chưa đọc",
-    "Readed": "Đã đọc"
+    "Readed": "Đã đọc",
+    "Suggestions_title": "Nội dung:",
+    "Suggestions_content": "Nội dung không dưới 5 từ và không quá 1000 từ",
+    "Submit": "Gửi đi"
   },
   "MyChangePasswordScreen": {
     "Sr_tab_title_1": "Mật khẩu đăng nhập",
@@ -263,9 +270,17 @@
     "PwEdit_item_PH_1": "Vui lòng nhập mật khẩu đăng nhập cũ.",
     "PwEdit_item_PH_2": "Nhập mật khẩu đăng nhập mới với 6 chữ số.",
     "PwEdit_item_PH_3": "Vui lòng xác nhận mật khẩu đăng nhập mới.",
-    "Icon_reminder_1": "Mật khẩu đăng nhập cũ không hợp lệ.",
-    "Icon_reminder_2": "Nhập mật khẩu mới cho cả hai là khác nhau.",
-    "ContentButton_1": "Xác nhận sửa chữa"
+    "Icon_reminder_1": "Mật khẩu đăng nhập cũ không.",
+    "Icon_reminder_2": "Nhập mật khẩu mới cho cả hai là.",
+    "ContentButton_1": "Xác nhận sửa chữa",
+    "PwEdit_2_item_1": "Mật khẩu rút tiền cũ:",
+    "PwEdit_2_item_2": "Mật khẩu rút tiền mới:",
+    "PwEdit_2_item_3": "Lập lại mật khẩu mới:",
+    "PwEdit_2_item_PH_1": "Vui lòng nhập mật khẩu rút tiền cũ",
+    "PwEdit_2_item_PH_2": "Vui lòng nhập mật khẩu rút tiền mới gồm 6 chữ số",
+    "PwEdit_2_item_PH_3": "Vui lòng xác nhận mật khẩu rút tiền mới",
+    "Icon_2_reminder_1": "Mật khẩu rút tiền cũ là không.",
+    "Icon_2_reminder_2": "Mật khẩu mới nhập hai lần là."
   },
   "AgentPromoteScreen": {
     "Sr_tab_title_1": "Quảng cáo của tôi",
@@ -282,7 +297,17 @@
     "Commissions_list_span": "(Mới)",
     "GetRecorBtn": "Nhận hồ sơ",
     "ContentButton_1": "Kiếm được hoa hồng",
-    "Copy": "Sao chép"
+    "Copy": "Sao chép",
+    "DirectReports": "Báo cáo trực tiếp:",
+    "TotalTurnover": "Tổng doanh thu:",
+    "Input": "Nhập tài khoản của người chơi trực tiếp",
+    "Search": "Tìm kiếm",
+    "Reset": "Đặt lại",
+    "Query_list_1": "Tài khoản",
+    "Query_list_2": "Tổng doanh thu",
+    "Query_list_3": "Đội",
+    "Query_list_4": "Báo cáo đội",
+    "Query_list_5": "Báo cáo trực tiếp"
   },
   "AgentFeedbackScreen": {
     "Sr_tab_title_1": "Du lịch điện tử",

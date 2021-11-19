@@ -152,6 +152,10 @@
     "BalanceTab": "余额",
     "BetAmountTab": "投注额",
     "MyWallet": "我的钱包",
+    "TodayRebate": "今日返佣",
+    "Dollar": "元",
+    "RebateContent": "预估反佣与实际反佣有部分差额，最终以实际反佣为准",
+    "RebateNoData": "暂无数据",
     "A_d_title2": "常用功能",
     "OnlinePayment": "在线支付",
     "FinanceRecord": "资金纪录",
@@ -252,7 +256,10 @@
     "TableStyle1_3": "时间",
     "TableStyle1_4": "操作",
     "Unread": "未读",
-    "Readed": "已读"
+    "Readed": "已读",
+    "Suggestions_title": "內容 :",
+    "Suggestions_content": "内容不少于5个字，不大于1000个字",
+    "Submit": "提交"
   },
   "MyChangePasswordScreen": {
     "Sr_tab_title_1": "登录密码",
@@ -265,7 +272,15 @@
     "PwEdit_item_PH_3": "请确认新登录密码",
     "Icon_reminder_1": "旧登录密码不正确。",
     "Icon_reminder_2": "两次输入的新密码不相同。",
-    "ContentButton_1": "确认修改"
+    "ContentButton_1": "确认修改",
+    "PwEdit_2_item_1": "旧取款密码 :",
+    "PwEdit_2_item_2": "新取款密码 :",
+    "PwEdit_2_item_3": "重复新密码 :",
+    "PwEdit_2_item_PH_1": "请输入旧取款密码",
+    "PwEdit_2_item_PH_2": "请输入6位数字的新取款密码",
+    "PwEdit_2_item_PH_3": "请确认新取款密码",
+    "Icon_2_reminder_1": "旧取款密码不正确。",
+    "Icon_2_reminder_2": "两次输入的新密码不相同。"
   },
   "AgentPromoteScreen": {
     "Sr_tab_title_1": "我的推广",
@@ -282,7 +297,17 @@
     "Commissions_list_span": "(新增)",
     "GetRecorBtn": "领取记录",
     "ContentButton_1": "领取佣金",
-    "Copy": "复制"
+    "Copy": "复制",
+    "DirectReports": "直属人数:",
+    "TotalTurnover": "今日总流水:",
+    "Input": "输入直属玩家帐号",
+    "Search": "搜索",
+    "Reset": "重置",
+    "Query_list_1": "帐号",
+    "Query_list_2": "今日流水",
+    "Query_list_3": "总流水",
+    "Query_list_4": "团队人数",
+    "Query_list_5": "直属人数"
   },
   "AgentFeedbackScreen": {
     "Sr_tab_title_1": "电子游艺",
