@@ -1,27 +1,9 @@
 # S8官網專案
 
-http://s8.git.cloudns.asia:5566/
+https://jack.hengwei-tech.com:3000/
 
-## 規格說明
+## 專案架構說明
 
-http://s8.git.cloudns.asia:5566/
+使用技術棧(Technology Stack):
 
-1.與目標網站模板一致
 
-2.需有會員系統 (可使用 Line 登入，FB登入) 登入之後，有新增會員中心畫面即可
-
-3.多國語系功能實作
-
-4. RWD 實作
-
- 
-
-確認規格 :
-
-1.右方快捷tab  button 點擊無反應
-
-2.點擊FB LINE 會員登入無反應，(需能正確登入)
-
-3.有辦法登入後台系統? (無法) 只要會員能正常登入即可 
-
-4.三個 button 全部連到一個頁面即可
