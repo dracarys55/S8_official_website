@@ -1,8 +1,8 @@
-# S8官網專案啟動
+# S8官網專案
 
 http://s8.git.cloudns.asia:5566/
 
-## 規格說明書
+## 規格說明
 
 http://s8.git.cloudns.asia:5566/
 
