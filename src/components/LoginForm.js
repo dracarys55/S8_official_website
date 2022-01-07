@@ -9,7 +9,7 @@ import close_w from './componentsImages/close_w.svg';
 /* import FbBtn from './componentsImages/FbBtn.png'; */
 import LineBtn from './componentsImages/LineBtn.png';
 
-const LoginForm = ({ handleClose, show, handleShow, handleSubmitShow }) => {
+const LoginForm = ({ handleClose, show }) => {
   const clientId = '1656221321';
   const redirectUrl = 'http://localhost:5158/redirect.html';
   const url =
